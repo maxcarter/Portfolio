@@ -1,0 +1,10 @@
+logs/*
+!.gitkeep
+node_modules/
+vendors/
+.DS_Store
+.idea
+*.orig
+*.bak
+*.log
+*.db

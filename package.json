@@ -1,0 +1,11 @@
+{
+  "name": "MaxwellCarter",
+  "private": true,
+  "version": "0.0.0",
+  "description": "",
+  "repository": "",
+  "license": "N/A",
+  "devDependencies": {
+    "bower": "^1.4.1"
+  }
+}
