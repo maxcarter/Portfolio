@@ -25,7 +25,7 @@ a:hover{
 \******************************************/
 #navmenu{
 	z-index:1000;
-	/*display:none;*/
+	display:none;
 	width:100%;
 	max-width:1360px;
 	position:fixed;
@@ -98,8 +98,8 @@ a:hover{
 	/*display: none;*/
 	margin: 0 0 0 -35.5px;
 	position: fixed;
-	top: 19px;
-	/*top:-100px;*/
+	/*top: 19px;*/
+	top:-100px;
 	left: 50%;
 	background: url('../img/logo_hex.png') no-repeat;
 }
