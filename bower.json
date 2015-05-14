@@ -10,6 +10,7 @@
     "jquery": "~2.1.4",
     "fontawesome": "~4.3.0",
     "flowtype": "~1.1.0",
-    "parallax-js": "*"
+    "jquery.stellar": "~0.6.2",
+    "waypoints": "~3.1.1"
   }
 }

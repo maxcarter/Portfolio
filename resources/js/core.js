@@ -57,10 +57,15 @@ $(document).ready(function() {
     checkWidth();
     $(window).resize(checkWidth); 
 
+    $.stellar({
+        horizontalScrolling: false,
+        responsive: true
+    });
+
     /**
      * NavMenu animations
      */
-    $(window).bind( 'hashchange', function(e) { 
+    /*$(window).bind( 'hashchange', function(e) { 
         var anchor = document.location.hash;
             if( anchor === '#home' ) {
                 $('#navmenu').stop().fadeOut( "slow", "linear");
@@ -77,13 +82,38 @@ $(document).ready(function() {
                     });
                 });
             }
+    });*/
+
+        /**
+     * Waypoints
+     */
+
+    // ----------- Navmenu-Fade-in
+    $('.waypoint-navmenu-in').waypoint(function(direction) {
+            $( "#logo-hex" ).css({"display":"block"});
+            $('#navmenu').stop().fadeIn( "slow", "linear", function(){
+                $( "#logo-hex" ).animate({
+                    top: "19px"
+                }, 500, function() {
+                  // Animation complete.
+                });
+            });
+    });
+
+    // ----------- Navmenu-Fade-out
+    $('.waypoint-navmenu-out').waypoint(function(direction) {
+            $('#navmenu').stop().fadeOut( "slow", "linear");
+            $( "#logo-hex" ).fadeOut("slow","linear", function(){
+                $( "#logo-hex" ).removeAttr( 'style' );
+            });
     });
 
     /**
      * FlowType
      * Adjusts font size based on screen size
      */
-    $('p').flowtype({
+
+    $('section .story').flowtype({
         minFont : 12,
         maxFont : 25
     });
