@@ -113,7 +113,7 @@ $(document).ready(function() {
      * Adjusts font size based on screen size
      */
 
-    $('section .story').flowtype({
+    $('p').flowtype({
         minFont : 12,
         maxFont : 25
     });
