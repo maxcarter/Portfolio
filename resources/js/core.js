@@ -126,4 +126,35 @@ $(document).ready(function() {
             $('html,body').animate({scrollTop:$(this.hash).offset().top}, 500);
         });
 
+    /**
+     * Contact Form Submit
+     * Makes post request to formSubmit.php and processes response.
+     */
+    $('#contact_form #submit').click( function( event) {
+        event.preventDefault();
+        $.ajax({
+            url: 'resources/php/formSubmit.php',
+            type: 'post',
+            dataType: 'json',
+            data: $('form#contact_form').serialize(),
+            success: function(data) {
+                console.log(data);
+                $( ".form_result_error" ).css({"display":"none"});
+                $( "#contact_form .detail" ).val('');
+                $( "#contact_form .mess" ).val('');
+                
+                $( ".form_result_success" )
+                    .css({"display":"block"})
+                    .html(data.message);
+            },
+            error: function(data) {
+                console.log(data);
+                $( ".form_result_success" ).css({"display":"none"});
+                $( ".form_result_error" )
+                   .css({"display":"block"})
+                   .html(data.responseJSON.message);
+            }
+        });
+    });
+
 });
