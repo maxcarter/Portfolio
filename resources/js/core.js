@@ -62,29 +62,14 @@ $(document).ready(function() {
         responsive: true
     });
 
-    /**
-     * NavMenu animations
-     */
-    /*$(window).bind( 'hashchange', function(e) { 
-        var anchor = document.location.hash;
-            if( anchor === '#home' ) {
-                $('#navmenu').stop().fadeOut( "slow", "linear");
-                $( "#logo-hex" ).fadeOut("slow","linear", function(){
-                    $( "#logo-hex" ).removeAttr( 'style' );
-                });
-            } else {
-                $( "#logo-hex" ).css({"display":"block"});
-                $('#navmenu').stop().fadeIn( "slow", "linear", function(){
-                    $( "#logo-hex" ).animate({
-                        top: "19px"
-                    }, 500, function() {
-                      // Animation complete.
-                    });
-                });
-            }
-    });*/
 
-        /**
+    /**
+     * Timeliner
+     * Initialize Time-Line plugin
+     */
+    $.timeliner({timelineContainer:'#timeline',});
+    
+    /**
      * Waypoints
      */
 
