@@ -153,7 +153,7 @@ section{
 /* Home */
 #section-home{
 	color:#eeeeee;
-	background:url('../img/bk.jpg') no-repeat top fixed;
+	background:url('../img/bk.jpg') top fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -226,7 +226,7 @@ section{
 
 /* Experience */
 #section-experience{
-	background:url('../img/space.jpg') no-repeat top fixed;
+	background:url('../img/space.jpg') top fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -235,7 +235,7 @@ section{
 
 /* Projects */
 #section-projects{
-	background:url('../img/projects_bk.jpg') no-repeat top fixed;
+	background:url('../img/projects_bk.jpg') top fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
