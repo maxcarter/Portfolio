@@ -1,6 +1,6 @@
 # Portfolio of Maxwell Carter
 
-A personal website portfolio that I designed and developped from scratch using HTML, CSS, jQuery and PHP.
+A personal website portfolio that I designed and developed from scratch using HTML, CSS, jQuery and PHP.
 
 ## Features
 
