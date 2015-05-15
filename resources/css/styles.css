@@ -345,3 +345,58 @@ input {
     padding-bottom:10px;
 
 }
+
+/* Connect */
+#section-connect{
+	background:#000000;
+	min-height:300px !important;
+	height:300px !important;
+}
+
+#section-connect .section-content{
+	padding-top:20px;
+}
+.connect_btn a{
+	text-decoration:none;
+	display:block;
+	width:100px;
+	height:50px;
+	color:#cccccc;
+	float:left;
+	border: 2px solid #333333;
+	line-height: 50px;
+	text-align:center;
+	margin:5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-transition: 0.5s linear;
+  	-moz-transition: 0.5s linear;
+  	-o-transition: 0.5s linear;
+  	transition: 0.5s linear;
+	
+}
+.connect_btn a:hover{
+	background:#dddddd;
+	color:#000000;
+	-webkit-transition: 0.5s linear;
+  	-moz-transition: 0.5s linear;
+  	-o-transition: 0.5s linear;
+  	transition: 0.5s linear;
+}
+#connect_wrapper{
+	left:50%;
+	margin-left:-175px;
+	position: absolute;
+}
+
+.connect_icons a{
+    text-decoration:none;
+    font-size:50px;
+    color:#444444;
+    text-align:center;
+    margin:5px;
+}
+.connect_icons a:hover{
+    color:#222222;
+}
