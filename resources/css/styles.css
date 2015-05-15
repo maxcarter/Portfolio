@@ -142,7 +142,6 @@ section{
 	display: block;
     min-height:100%;
     width:100%;
-    background-attachment: fixed;
 }
 .section-content{
 	padding-top:100px;
@@ -152,8 +151,13 @@ section{
 }
 
 /* Home */
-#section-home .section-content{
+#section-home{
 	color:#eeeeee;
+	background:url('../img/bk.jpg') no-repeat top fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 #section-home #intro_wrapper{
 	display:block;
@@ -222,12 +226,20 @@ section{
 
 /* Experience */
 #section-experience{
-	background:url('../img/space.jpg');
+	background:url('../img/space.jpg') no-repeat top fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 /* Projects */
 #section-projects{
-	background:url('../img/projects_bk.jpg');
+	background:url('../img/projects_bk.jpg') no-repeat top fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 /* Contact */
