@@ -120,16 +120,7 @@ p{
 /******************************************\
                  Content
 \******************************************/
-.scroll_btn{
-	display:block;
-	float:left;
-	left:90%;
-	top:90%;
-	margin-left:-100px;
-	position:absolute;
-	height:50px;
 
-}
 #content{
 	position:absolute;
 	top:0px;
@@ -153,7 +144,7 @@ section{
 /* Home */
 #section-home{
 	color:#eeeeee;
-	background:url('../img/bk.jpg') top fixed;
+	/*background:url('../img/bk.jpg') top fixed;*/
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -166,6 +157,18 @@ section{
 	top:50%;
 	margin-left:-181px;
 	margin-top:-76.5px;
+	z-index:300;
+}
+.scroll_btn{
+	display:block;
+	float:left;
+	left:90%;
+	top:90%;
+	margin-left:-100px;
+	position:absolute;
+	height:50px;
+	z-index:300;
+
 }
 
 /* About */
@@ -399,4 +402,33 @@ input {
 }
 .connect_icons a:hover{
     color:#222222;
+}
+
+
+
+/******************************************\
+                 Background
+\******************************************/
+#background {
+	background: url(../img/background.png) repeat 5% 5%;
+	position: absolute;
+	opacity:0.3;
+	top: 0; left: 0; right: 0; bottom: 0;
+	z-index: 100;
+}
+
+#midground {
+	background: url(../img/midground.png) repeat 20% 20%;
+	position: absolute;
+	opacity:0.5;
+	top: 0; left: 0; right: 0; bottom: 0;
+	z-index: 100;
+}
+
+#foreground {
+	background: url(../img/foreground.png) repeat 90% 110%;
+	opacity:0.3;
+	position: absolute;
+	top: 0; left: 0; right: 0; bottom: 0;
+	z-index: 200;
 }
