@@ -68,7 +68,8 @@ $(document).ready(function() {
      * Initialize Time-Line plugin
      */
     $.timeliner({timelineContainer:'#timeline',});
-    
+
+
     /**
      * Waypoints
      */

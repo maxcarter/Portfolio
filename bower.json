@@ -12,6 +12,7 @@
     "flowtype": "~1.1.0",
     "jquery.stellar": "~0.6.2",
     "waypoints": "~3.1.1",
-    "timeliner": "https://github.com/technotarek/timeliner.git"
+    "timeliner": "https://github.com/technotarek/timeliner.git",
+    "honeycombs": "https://github.com/thijskempke/honeycombs.git"
   }
 }

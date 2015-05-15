@@ -304,3 +304,28 @@ dl{
 .timeline-event-content .media p a {
   text-transform: lowercase;
 }
+
+/******************************************\
+                 Honeycombs
+\******************************************/
+.honeycombs .inner_span{
+	display: block;
+	height: 100%;
+	width: 100%;
+	background-color: #222222;
+	font-family: sans-serif;
+	color: #cccccc;
+}
+.inner_span a{
+	display:block;
+	width:100%;
+	height:100%;
+	padding-top:20px;
+	line-height:20px;
+	position:absolute;
+	text-decoration:none;
+	color:#cccccc;
+	font-size:20px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	text-align:center;
+}
