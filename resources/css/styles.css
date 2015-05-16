@@ -117,6 +117,43 @@ p{
 	display: block;
 }
 
+/* Mobile */
+.nav-text{
+	display:none;
+}
+#navmenu div ul li a{
+	font-size:40px;
+}
+#navmenu div ul li a i{
+	margin-top:20px;
+}
+
+/* Tablet */
+@media(min-width:568px) {
+	.nav-text{
+		display:none;
+	}
+	#navmenu div ul li a{
+		font-size:40px;
+	}
+	#navmenu div ul li a i{
+		margin-top:20px;
+	}
+}
+/* Laptop */
+@media(min-width:900px) {
+	.nav-text{
+		display:inline;
+	}
+	#navmenu div ul li a{
+		font-size:12pt;
+	}
+	#navmenu div ul li a i{
+		margin-top:0px;
+	}
+}
+
+
 /******************************************\
                  Content
 \******************************************/
