@@ -186,6 +186,7 @@ section{
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+	background-position: center center;
 }
 #section-home #intro_wrapper{
 	display:block;
@@ -271,6 +272,7 @@ section{
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+	background-position: center center;
 }
 
 /* Projects */
@@ -280,6 +282,7 @@ section{
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+	background-position: center center;
 }
 
 /* Contact */
