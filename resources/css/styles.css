@@ -35,7 +35,6 @@ p{
 	z-index:1000;
 	display:none;
 	width:100%;
-	max-width:1360px;
 	position:fixed;
 	height:79px;
 	background:url('../img/navmenu_bk.png') top no-repeat;
@@ -45,6 +44,8 @@ p{
 /*-- Left Menu  --*/
 #left-nav{
 	width:30%;
+	float:left;
+	background:#222222;
 }
 #left-nav ul li{
 	list-style:none;
@@ -54,10 +55,10 @@ p{
 }
 #left-nav ul li a{
 	text-decoration:none;
+	background:#222222;
 	display:block;
 	float:left;
 	width:50%;
-	height:79px;
 	color:#cccccc;
 	font-size:14pt;
 	-webkit-transition: background 0.2s linear;
@@ -74,6 +75,7 @@ p{
 #right-nav{
 	width:30%;
 	float:right;
+	background:#222222;
 }
 #right-nav ul li{
 	list-style:none;
@@ -86,7 +88,6 @@ p{
 	display:block;
 	float:left;
 	width:50%;
-	height:79px;
 	color:#cccccc;
 	font-size:14pt;
 	-webkit-transition: background 0.2s linear;
