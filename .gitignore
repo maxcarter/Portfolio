@@ -3,6 +3,7 @@ logs/*
 node_modules/
 vendors/
 .DS_Store
+.zip
 .idea
 *.orig
 *.bak
