@@ -68,12 +68,12 @@ a img {
   color: #78a8b2;
 }
 .timeline-container {
-  border-left: 4px solid rgba(0, 69, 121, 0.65);
+  border-left: 4px solid rgba(0, 69, 121, 1);
   margin: 20px auto;
   width: 100%;
 }
 .timeline-container-tick {
-  background: rgba(0, 69, 121, 0.65);
+  background: rgba(0, 69, 121, 1);
   content: "";
   display: block;
   height: 4px;
@@ -82,7 +82,7 @@ a img {
   position: relative;
 }
 .timeline-container::before {
-  background: rgba(0, 69, 121, 0.65);
+  background: rgba(0, 69, 121, 1);
   content: "";
   display: block;
   height: 4px;
@@ -92,7 +92,7 @@ a img {
   top: -4px;
 }
 .timeline-container::after {
-  background: rgba(0, 69, 121, 0.65);
+  background: rgba(0, 69, 121, 1);
   content: "";
   display: block;
   height: 4px;
@@ -102,7 +102,7 @@ a img {
   top: 4px;
 }
 .timeline-toggle {
-  background: rgba(23, 66, 98, 0.65);
+  background: rgba(23, 66, 98, 1);
   border: 0;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -117,7 +117,7 @@ a img {
   white-space: nowrap;
 }
 .timeline-toggle:hover {
-  background: rgba(119, 0, 63, 0.8);
+  background:#3598D4;
   -webkit-transition: background 0.2s ease-in;
   -moz-transition: background 0.2s ease-in;
   -o-transition: background 0.2s ease-in;
@@ -140,7 +140,7 @@ dl{
 	font-family: inherit;
 }
 .timeline-wrapper .timeline-time::before {
-  border-top: 4px solid rgba(0, 69, 121, 0.65);
+  border-top: 4px solid rgba(0, 69, 121, 1);
   content: "";
   display: inline-block;
   height: 4px;
@@ -156,7 +156,7 @@ dl{
   padding: 0;
 }
 .timeline-wrapper .timeline-time span {
-  background: rgba(0, 69, 121, 0.65);
+  background: rgba(0, 69, 121, 1);
   -moz-border-radius: 10px;
   border-radius: 10px;
   color: rgba(255, 255, 255, 0.85);
@@ -166,7 +166,7 @@ dl{
   text-align: center;
 }
 .timeline-wrapper .timeline-time span:hover {
-  background: rgba(0, 69, 121, 0.95);
+  background:#3598D4;
   -webkit-transition: background 0.2s ease-in;
   -moz-transition: background 0.2s ease-in;
   -o-transition: background 0.2s ease-in;
@@ -181,7 +181,7 @@ dl{
   width: 100%;
 }
 .timeline-series dt::before {
-  border-top: 3px solid rgba(0, 69, 121, 0.65);
+  border-top: 3px solid rgba(0, 69, 121, 1);
   content: "";
   display: inline-block;
   height: 3px;
@@ -231,7 +231,7 @@ dl{
   white-space: nowrap;
 }
 .tick {
-  background: rgba(0, 69, 121, 0.65);
+  background: rgba(0, 69, 121, 1);
   clear: both;
   display: block;
   height: 2px;
