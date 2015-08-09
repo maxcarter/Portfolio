@@ -2,6 +2,10 @@
 
 A personal website portfolio that I designed and developed from scratch using HTML, CSS, jQuery and PHP.
 
+## Demo
+
+[maxwellcarter.com](http://maxwellcarter.com)
+
 ## Features
 
 * Timeline of past employments
