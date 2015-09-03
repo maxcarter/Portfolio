@@ -300,6 +300,10 @@ section{
     padding:10px;
     float:left;
     margin:10px;
+    -webkit-transition: 0.5s linear;
+    -moz-transition: 0.5s linear;
+    -o-transition: 0.5s linear;
+    transition: 0.5s linear;
 }
 .skill .fa{
     font-size:60px;
@@ -325,6 +329,10 @@ section{
 .skill:hover{
     background:#999999;
     color:#111111;
+    -webkit-transition: 0.5s linear;
+    -moz-transition: 0.5s linear;
+    -o-transition: 0.5s linear;
+    transition: 0.5s linear;
 }
 
 
