@@ -343,7 +343,7 @@ section{
 }
 
 #form .row .input input {
-    width:100%;
+    width:99%;
     padding-top:5px;
     padding-bottom:5px;
     display:block;
@@ -355,8 +355,8 @@ section{
     border-radius: 4px;
 }
 .mess{
-    width:100%;
-    max-width:100%;
+    width:99%;
+    max-width:99%;
     height:150px;
     padding-top:5px;
     padding-bottom:5px;
