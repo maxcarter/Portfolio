@@ -45,6 +45,7 @@ module.exports = function(grunt) {
             css: [
                 '<%= source %>/vendors/fontawesome/css/font-awesome.min.css',
                 '<%= source %>/vendors/timeliner/css/timeliner.css',
+                '<%= source %>/vendors/animate.css/animate.min.css',
                 '<%= source %>/vendors/honeycombs/homeycombs/css/homeycombs.css'
             ],
             js: [
@@ -54,7 +55,8 @@ module.exports = function(grunt) {
                 '<%= source %>/vendors/waypoints/lib/jquery.waypoints.min.js',
                 '<%= source %>/vendors/honeycombs/homeycombs/js/jquery.homeycombs.js',
                 '<%= source %>/vendors/timeliner/js/vendor/venobox/venobox.min.js',
-                '<%= source %>/vendors/timeliner/js/timeliner.min.js'
+                '<%= source %>/vendors/timeliner/js/timeliner.min.js',
+                '<%= source %>/vendors/modernizr/modernizr.js'
             ],
             fonts: '<%= source %>/vendors/fontawesome/fonts'
         },

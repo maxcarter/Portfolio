@@ -32,6 +32,16 @@ a:hover{
 p{
     
 }
+
+/******************************************\
+        Reveal on Scroll Animation
+\******************************************/
+.revealOnScroll { 
+    opacity: 0; 
+}
+.animated { 
+    opacity: 1; 
+}
 /******************************************\
                  Navmenu
 \******************************************/
@@ -220,6 +230,12 @@ section{
     background:#cccccc;
 }
 
+#section-about .section-text{
+    padding-left:5%;
+    text-align:left;
+    width:90%;
+}
+
 .connect_btn a{
     text-decoration:none;
     display:block;
@@ -254,14 +270,17 @@ section{
     position: absolute;
 }
 
-.connect_icons{
-    margin-left:5%;
-}
+
 /* Tablet */
-@media(min-width:568px) {
+/*@media(min-width:568px) {
     .connect_icons{
         margin-left:20%;
     }
+}*/
+.connect_icons{
+    display:block;
+    clear:both;
+    display:table;
 }
 .connect_icons a{
     text-decoration:none;
@@ -273,7 +292,11 @@ section{
     float:left;
     border: 2px solid #bbbbbb;
     padding:10px;
-    width:20%;
+    width:150px;
+    height:80px;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
 }
 .connect_icons .connect_icons_text{
     font-size:20px;
@@ -291,6 +314,11 @@ section{
     padding-bottom:50px;
     display:table;
     clear:both;
+}
+#section-skills .section-text{
+    padding-left:5%;
+    text-align:left;
+    width:90%;
 }
 .skill{
     display:block;

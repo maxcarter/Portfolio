@@ -8,6 +8,7 @@
     <!--Style Sheets-->
         <!-- @if NODE_ENV == 'DEV' -->
             <link rel="stylesheet" type="text/css" href="vendors/fontawesome/css/font-awesome.min.css" />
+            <link rel="stylesheet" type="text/css" href="vendors/animate.css/animate.min.css">
             <link rel="stylesheet" type="text/css" href="vendors/timeliner/css/timeliner.css"  media="screen">
             <link rel="stylesheet" type="text/css" href="vendors/honeycombs/homeycombs/css/homeycombs.css">
             <link rel="stylesheet" type="text/css" href="resources/css/styles.css" />
@@ -96,67 +97,69 @@
         </section>
         <section id="section-about" class="waypoint-navmenu-in">
             <div class="section-content">
+                <div class="section-text">
                 <h1><i class="fa fa-user"></i> About</h1>
-                <p>&nbsp; &nbsp; &nbsp; &nbsp;I'm currently enrolled in Computer Engineering at the University of Waterloo. I'm a software developer and technology enthusiast with a passion for learning how things work. I have experience using various programming languages and software design patterns. Specifically, my interest lies in the area of web development, DevOps, and automation.<br /> <br />
-                    Personal Interests: Hockey, Tennis, Mountain Biking, Reading, Violin</p>
+                <p data-animation="fadeIn" data-timeout="200" class="revealOnScroll">I'm currently enrolled in Computer Engineering at the University of Waterloo. I'm a software developer and technology enthusiast with a passion for learning how things work. I have experience using various programming languages and software design patterns. Specifically, my interest lies in the area of web development, DevOps, and automation.</p>
                 
                 <br />
                 <div align="center" class="connect_icons">
-                    <a href="docs/resume.pdf" target="_blank">
+                    <a href="docs/resume.pdf" target="_blank" data-animation="flipInX" data-timeout="400" class="revealOnScroll">
                         <i class="fa fa-file-text-o "></i>
                         <span class="connect_icons_text">Resume</span>
                     </a>
-                    <a href="https://github.com/maxcarter" target="_blank">
+                    <a href="https://github.com/maxcarter" target="_blank" data-animation="flipInX" data-timeout="800" class="revealOnScroll">
                         <i class="fa fa-github"></i>
                         <span class="connect_icons_text">Github</span>
                     </a>
-                    <a href="https://ca.linkedin.com/in/maxwellcarter/" target="_blank">
+                    <a href="https://ca.linkedin.com/in/maxwellcarter/" target="_blank" data-animation="flipInX" data-timeout="1000" class="revealOnScroll">
                         <i class="fa fa-linkedin-square"></i>
                         <span class="connect_icons_text">LinkedIn</span>
                     </a>
+                </div>
                 </div>
             </div>
         </section>
         <section id="section-skills" class="waypoint-navmenu-in" data-stellar-background-ratio="0.5">
             <div class="section-content">
+                <div class="section-text">
                 <h1><i class="fa fa-cogs"></i> Skills</h1>
 
-                <span class="skill">
+                <span class="skill revealOnScroll" data-animation="zoomInDown" data-timeout="200">
                     <i class="fa fa-code"></i>
                     <span class="skill-title">Front-End Development</span>
                     <span class="skill-text">HTML, CSS, JavaScript, jQuery, AngularJS</span>
                 </span>
-                <span class="skill">
+                <span class="skill revealOnScroll" data-animation="zoomInDown" data-timeout="200">
                     <i class="fa fa-terminal"></i>
                     <span class="skill-title">Back-End Development</span>
                     <span class="skill-text">Node.js, JSON, PHP, RESTful APIs, Wordpress</span>
                 </span>
 
-                <span class="skill">
+                <span class="skill revealOnScroll" data-animation="zoomInDown" data-timeout="200">
                     <i class="fa fa-database"></i>
                     <span class="skill-title">Databases</span>
                     <span class="skill-text">MySQL, Mongo DB, ElasticSearch</span>
                 </span>
 
-                <span class="skill">
+                <span class="skill revealOnScroll" data-animation="zoomInDown" data-timeout="200">
                     <i class="fa fa-laptop"></i>
                     <span class="skill-title">High-Level Programming</span>
                     <span class="skill-text">Java, C, C++, C#, Python</span>
                 </span>
 
-                <span class="skill">
+                <span class="skill revealOnScroll" data-animation="zoomInDown" data-timeout="200">
                     <i class="fa fa-keyboard-o"></i>
                     <span class="skill-title">Low-Level Programming</span>
                     <span class="skill-text">ARM Assembly Language</span>
                 </span>
 
-                <span class="skill">
+                <span class="skill revealOnScroll" data-animation="zoomInDown" data-timeout="200">
                     <i class="fa fa-cogs"></i>
                     <span class="skill-title">Automation</span>
                     <span class="skill-text">GruntJS, BASH, StackStorm, YAML</span>
                 </span>
 
-                <span class="skill">
+                <span class="skill revealOnScroll" data-animation="zoomInDown" data-timeout="200">
                     <i class="fa fa-bug"></i>
                     <span class="skill-title">Quality Assurance</span>
                     <span class="skill-text">Karma, Jasmine, Selenium</span>
@@ -164,30 +167,31 @@
 
                 
 
-                <span class="skill">
+                <span class="skill revealOnScroll" data-animation="zoomInDown" data-timeout="200">
                     <i class="fa fa-bullhorn"></i>
                     <span class="skill-title">Animation</span>
                     <span class="skill-text">Adobe Flash, ActionScript 2.0, ActionScript 3.0</span>
                 </span>
 
-                <span class="skill">
+                <span class="skill revealOnScroll" data-animation="zoomInDown" data-timeout="200">
                     <i class="fa fa-tablet"></i>
                     <span class="skill-title">Mobile Development</span>
                     <span class="skill-text">Android</span>
                 </span>
 
-                <span class="skill">
+                <span class="skill revealOnScroll" data-animation="zoomInDown" data-timeout="200">
                     <i class="fa fa-paint-brush"></i>
                     <span class="skill-title">Graphic Design</span>
                     <span class="skill-text">Adobe Photoshop, Adobe Illustrator</span>
                 </span>
 
-                <span class="skill">
+                <span class="skill revealOnScroll" data-animation="zoomInDown" data-timeout="200">
                     <i class="fa fa-line-chart"></i>
                     <span class="skill-title">SDLC</span>
                     <span class="skill-text">Waterfall, Agile, Scrum</span>
                 </span>
             </div>
+        </div>
         </section>
         <section id="section-experience" class="waypoint-navmenu-in" data-stellar-background-ratio="0.5">
             <div class="section-content">
@@ -403,35 +407,35 @@
             <div class="section-content">
                 <h1><i class="fa fa-code"></i> Projects</h1>
                 <div class="honeycombs">
-                    <div class="comb"> 
+                    <div class="comb revealOnScroll" data-animation="zoomIn" data-timeout="200"> 
                         <img src="resources/img/projects/saultstemarielawyers.svg" />        
                         <span><a href="http://saultstemarielawyers.com" target="_blank">Sault Ste Marie Lawyers.com</a></span>
                     </div>
-                    <div class="comb"> 
+                    <div class="comb revealOnScroll" data-animation="zoomIn" data-timeout="400"> 
                         <img src="resources/img/projects/rest.svg" />        
                         <span><a href="https://github.com/maxcarter/REST-UP" target="_blank">REST UP</a></span>
                     </div>
-                    <div class="comb"> 
+                    <div class="comb revealOnScroll" data-animation="zoomIn" data-timeout="600"> 
                         <img src="resources/img/projects/nuts.svg" />               
                         <span><a href="https://github.com/maxcarter/Are-You-Nuts" target="_blank">Are You Nuts?</a></span>
                     </div>
-                    <div class="comb"> 
+                    <div class="comb revealOnScroll" data-animation="zoomIn" data-timeout="800"> 
                         <img src="resources/img/projects/vaporizer.jpg" />          
                         <span><a href="https://github.com/maxcarter/vaporizer" target="_blank">Vaporizer</a></span>
                     </div>
-                    <div class="comb"> 
+                    <div class="comb revealOnScroll" data-animation="zoomIn" data-timeout="200"> 
                         <img src="resources/img/projects/crokinole.jpg" />          
                         <span><a href="https://github.com/maxcarter/crokinole" target="_blank">Crokinole</a></span>
                     </div>
-                    <div class="comb"> 
+                    <div class="comb revealOnScroll" data-animation="zoomIn" data-timeout="400"> 
                         <img src="resources/img/projects/lomascarpentry.svg" />            
                         <span><a href="http://www.lomascarpentry.com" target="_blank">LomasCarpentry.com</a></span>
                     </div>
-                    <div class="comb"> 
+                    <div class="comb revealOnScroll" data-animation="zoomIn" data-timeout="600"> 
                         <img src="resources/img/projects/codebat.svg" />            
                         <span><a href="http://www.code-bat.com" target="_blank">Code-Bat.com</a></span>
                     </div>
-                    <div class="comb"> 
+                    <div class="comb revealOnScroll" data-animation="zoomIn" data-timeout="800"> 
                         <img src="resources/img/projects/lamest_game.svg" />        
                         <span><a href="https://github.com/maxcarter/The-World-s-Lamest-Game" target="_blank">The World's<br>Lamest Game</a></span>
                     </div>
@@ -500,6 +504,7 @@
     <script type="text/javascript" src="vendors/honeycombs/homeycombs/js/jquery.homeycombs.js"></script>
     <script type="text/javascript" src="vendors/timeliner/js/vendor/venobox/venobox.min.js"></script>
     <script type="text/javascript" src="vendors/timeliner/js/timeliner.min.js"></script>
+    <script type="text/javascript" src="vendors/modernizr/modernizr.js"></script>
     <script type="text/javascript" src="resources/js/core.js"></script>
 <!-- @endif -->
 
