@@ -24,6 +24,10 @@ module.exports = function(grunt) {
 
         ]);
 
+    grunt.registerTask('default',[
+            'build'
+        ]);
+
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
 
