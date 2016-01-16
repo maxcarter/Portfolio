@@ -1,6 +1,6 @@
 # Portfolio of Maxwell Carter
 
-A personal website portfolio that I designed and developed from scratch using HTML, CSS, jQuery and PHP.
+An online visualization of my resume presented as a personal website portfolio designed using HTML, CSS, jQuery and PHP.
 
 ## Demo
 
@@ -19,8 +19,16 @@ A personal website portfolio that I designed and developed from scratch using HT
 npm install
 ```
 
+## Build
+
+```
+grunt
+```
+
 ## Tech Specs
 
+* [Grunt](http://gruntjs.com/) task management 
+* [Bower](http://bower.io/) package management
 * Responsive design that supports various screen sizes
 * Parallax background scrolling
 * Responsive jQuery Timeline
