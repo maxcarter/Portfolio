@@ -1,6 +1,6 @@
 # Portfolio of Maxwell Carter
 
-An online visualization of my resume presented as a personal website portfolio designed using HTML, CSS, jQuery and PHP.
+An online visualization of my resume presented as a personal website portfolio.
 
 ## Demo
 
@@ -27,6 +27,7 @@ grunt
 
 ## Tech Specs
 
+* Designed using HTML, CSS, jQuery, and PHP
 * [Grunt](http://gruntjs.com/) task management 
 * [Bower](http://bower.io/) package management
 * Responsive design that supports various screen sizes
