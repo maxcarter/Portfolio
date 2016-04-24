@@ -11,7 +11,9 @@
 angular
   .module('portfolioApp', [
     'ngCookies',
-    'ngRoute'
+    'ngRoute',
+    'ngAnimate', 
+    'mgcrea.ngStrap'
   ])
   .config(function ($routeProvider) {
     $routeProvider
