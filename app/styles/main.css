@@ -1,83 +1,220 @@
-.browsehappy {
-  margin: 0.2em 0;
-  background: #ccc;
-  color: #000;
-  padding: 0.2em 0;
+/* Elements */
+body{
+    background: #EFEFEF;
 }
 
-body {
-  padding: 0;
+/* Navbar */
+
+.dropdown-menu {
+    background-color: #0276ea;
+}
+.dropdown-menu li a {
+    color:#EFEFEF;
 }
 
-/* Everything but the jumbotron gets side spacing for mobile first views */
-.header,
-.marketing,
-.footer {
-  padding-left: 15px;
-  padding-right: 15px;
+.custom-brand i.fa {
+    display: none;
 }
 
-/* Custom page header */
-.header {
-  border-bottom: 1px solid #e5e5e5;
-  margin-bottom: 10px;
-}
-/* Make the masthead heading the same height as the navigation */
-.header h3 {
-  margin-top: 0;
-  margin-bottom: 0;
-  line-height: 40px;
-  padding-bottom: 19px;
+@media (min-width: 1130px) {
+    .custom-brand i.fa {
+        display: inline;
+    }
 }
 
-/* Custom page footer */
-.footer {
-  padding-top: 19px;
-  color: #777;
-  border-top: 1px solid #e5e5e5;
+.navbar-custom {
+    background-color: #2288EE;
+    border-bottom: 1px solid #0276ea;
+
 }
 
-.container-narrow > hr {
-  margin: 30px 0;
+.navbar-custom .navbar-brand {
+    color: #EFEFEF;
 }
 
-/* Main marketing message and sign up button */
-.jumbotron {
-  text-align: center;
-  border-bottom: 1px solid #e5e5e5;
-}
-.jumbotron .btn {
-  font-size: 21px;
-  padding: 14px 24px;
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus {
+    color: #EFEFEF;
+    background-color: transparent;
 }
 
-/* Supporting marketing content */
-.marketing {
-  margin: 40px 0;
-}
-.marketing p + h4 {
-  margin-top: 28px;
+.navbar-custom .navbar-text {
+    color: #EFEFEF;
 }
 
-/* Responsive: Portrait tablets and up */
-@media screen and (min-width: 768px) {
-  .container {
-    max-width: 730px;
-  }
-
-  /* Remove the padding we set earlier */
-  .header,
-  .marketing,
-  .footer {
-    padding-left: 0;
-    padding-right: 0;
-  }
-  /* Space out the masthead */
-  .header {
-    margin-bottom: 30px;
-  }
-  /* Remove the bottom border on the jumbotron for visual effect */
-  .jumbotron {
-    border-bottom: 0;
-  }
+.navbar-custom .navbar-nav > li > a {
+    color: #EFEFEF;
 }
+
+.navbar-custom .navbar-nav > li > a:hover,
+.navbar-custom .navbar-nav > li > a:focus {
+    color: #EFEFEF;
+    background-color: #0276ea;
+}
+
+.navbar-custom .navbar-nav > .active > a,
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus {
+    color: #EFEFEF;
+    background-color: #0276ea;
+}
+
+.navbar-custom .navbar-nav > .disabled > a,
+.navbar-custom .navbar-nav > .disabled > a:hover,
+.navbar-custom .navbar-nav > .disabled > a:focus {
+    color: #EFEFEF;
+    background-color: transparent;
+}
+
+.navbar-custom .navbar-toggle {
+    border: none;
+    background: #2288EE;
+}
+
+.navbar-custom .navbar-toggle:hover,
+.navbar-custom .navbar-toggle:focus {
+    background-color: #0276ea;
+}
+
+.navbar-custom .navbar-toggle .icon-bar {
+    background-color: #ddd;
+}
+
+.navbar-custom .navbar-collapse,
+.navbar-custom .navbar-form {
+    border-color: #2288EE;
+}
+
+.navbar-custom .navbar-nav > .open > a,
+.navbar-custom .navbar-nav > .open > a:hover,
+.navbar-custom .navbar-nav > .open > a:focus {
+    color: #2288EE;
+    background-color: #EFEFEF;
+}
+
+@media (max-width: 767px) {
+    .navbar-custom .navbar-nav .open .dropdown-menu > li > a {
+        color: #EFEFEF;
+    }
+    .navbar-custom .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-custom .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #EFEFEF;
+        background-color: transparent;
+    }
+    .navbar-custom .navbar-nav .open .dropdown-menu > .active > a,
+    .navbar-custom .navbar-nav .open .dropdown-menu > .active > a:hover,
+    .navbar-custom .navbar-nav .open .dropdown-menu > .active > a:focus {
+        color: #2288EE;
+        background-color: #EFEFEF;
+    }
+    .navbar-custom .navbar-nav .open .dropdown-menu > .disabled > a,
+    .navbar-custom .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+    .navbar-custom .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+        color: #EFEFEF;
+        background-color: transparent;
+    }
+}
+
+.navbar-custom .navbar-link {
+    color: #EFEFEF;
+}
+
+.navbar-custom .navbar-link:hover {
+    color: #EFEFEF;
+}
+
+.navbar-custom .btn-link {
+    color: #EFEFEF;
+}
+
+.navbar-custom .btn-link:hover,
+.navbar-custom .btn-link:focus {
+    color: #EFEFEF;
+}
+
+.navbar-custom .btn-link[disabled]:hover,
+fieldset[disabled] .navbar-custom .btn-link:hover,
+.navbar-custom .btn-link[disabled]:focus,
+fieldset[disabled] .navbar-custom .btn-link:focus {
+    color: #EFEFEF;
+}
+
+/* Header */
+
+.custom-header{
+    display:block;
+    width:100%;
+    background-color:#2288EE;
+    margin-top:50px;
+    min-height:230px;
+    margin-bottom:50px;
+}
+.custom-header .container{
+    padding-top:30px;
+}
+.custom-header h1{
+    font-size: 60px;
+    color:#EFEFEF;
+}
+.custom-header p{
+    font-size: 20px;
+    color:#0044aa;
+}
+
+
+.fixed {
+    position: fixed;
+}
+
+/* Sidenav */
+
+/* all links */
+.bs-docs-sidebar .nav>li>a {
+    color: #999;
+    border-left: 2px solid transparent;
+    padding: 4px 20px;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+/* nested links */
+.bs-docs-sidebar .nav .nav>li>a {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 30px;
+    font-size: 12px;
+}
+
+/* active & hover links */
+.bs-docs-sidebar .nav>.active>a, 
+.bs-docs-sidebar .nav>li>a:hover, 
+.bs-docs-sidebar .nav>li>a:focus {
+    color: #0276ea;                 
+    text-decoration: none;          
+    background-color: transparent;  
+    border-left-color: #0276ea; 
+}
+/* all active links */
+.bs-docs-sidebar .nav>.active>a, 
+.bs-docs-sidebar .nav>.active:hover>a,
+.bs-docs-sidebar .nav>.active:focus>a {
+    font-weight: 700;
+}
+/* nested active links */
+.bs-docs-sidebar .nav .nav>.active>a, 
+.bs-docs-sidebar .nav .nav>.active:hover>a,
+.bs-docs-sidebar .nav .nav>.active:focus>a {
+    font-weight: 500;
+}
+
+/* hide inactive nested list */
+.bs-docs-sidebar .nav ul.nav {
+    display: none;           
+}
+/* show active nested list */
+.bs-docs-sidebar .nav>.active>ul.nav {
+    display: block;           
+}
+
+
+
