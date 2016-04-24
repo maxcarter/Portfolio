@@ -1,12 +1,5 @@
-logs/*
-!.gitkeep
-node_modules/
-vendors/
-dist/
-.DS_Store
-*.zip
-.idea
-*.orig
-*.bak
-*.log
-*.db
+/node_modules
+/dist
+/.tmp
+/.sass-cache
+/bower_components
