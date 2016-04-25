@@ -301,3 +301,24 @@ fieldset[disabled] .navbar-custom .btn-link:focus {
 .custom-section {
     padding-bottom: 50px;
 }
+
+.panel-dark {
+    border: 1px solid #333333;
+    border-radius: 0px !important;
+    margin: 0px !important;
+}
+
+.panel-dark .panel-heading {
+    color: #e7e7e7;
+    background: #333333;
+    border-radius: 0px;
+    cursor: pointer;
+}
+
+.panel-dark .panel-heading:hover {
+    background: #1C75CE;
+}
+
+.panel-dark .panel-body {
+    background: #e7e7e7;
+}

@@ -20,7 +20,6 @@
                     <h1 class="page-header">Welcome</h1>
                     <div flowtype min-font="15" max-font="20" font-ratio="35" line-ratio="1.5" minimum="1" maximum="9999">
                         <p>Hello, I am a Computer Engineering student from the University of Waterloo currently looking for employment! This is my portfolio website, you are invited to explore my world and try out some of my personal projects. I encourage you reach out by contacting me using one of the links below. </p>
-
                     </div>
                     <button type="button" class="btn btn-lg btn-primary">
                         <i class="fa fa-envelope"></i> Email
@@ -41,6 +40,10 @@
                 </section>
                 <section class="custom-section" id="skills">
                     <h1 class="page-header">Skills</h1>
+                    <div class="col-md-6"></div>
+                    <div class="col-md-6">
+                        <div ng-include="'views/tpl-accordion.html'"></div>
+                    </div>
                 </section>
                 <section class="custom-section" id="experience">
                     <h1 class="page-header">Experience</h1>

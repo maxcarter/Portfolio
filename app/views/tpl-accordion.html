@@ -1,0 +1,12 @@
+<div class="panel-group" ng-model="skills.active" role="tablist" aria-multiselectable="true" bs-collapse>
+    <div class="panel panel-dark" ng-repeat="panel in skills.panels">
+        <div class="panel-heading" role="tab" bs-collapse-toggle>
+            <h4 class="panel-title">{{panel.title}}</h4>
+        </div>
+        <div class="panel-collapse" role="tabpanel" bs-collapse-target>
+            <div class="panel-body">
+                {{panel.body}}
+            </div>
+        </div>
+    </div>
+</div>
