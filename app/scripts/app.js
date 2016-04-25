@@ -13,7 +13,8 @@ angular
     'ngCookies',
     'ngRoute',
     'ngAnimate', 
-    'mgcrea.ngStrap'
+    'mgcrea.ngStrap',
+    'ngFlowtype'
   ])
   .config(function ($routeProvider) {
     $routeProvider

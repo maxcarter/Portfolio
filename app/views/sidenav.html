@@ -1,27 +1,12 @@
-<nav class="bs-docs-sidebar">
-    <ul id="sidebar" class="nav nav-stacked fixed">
-        <li data-target="#welcome" bs-scrollspy>
-            <a href="#welcome">Welcome</a>
-        </li>
-        <li data-target="#about" bs-scrollspy>
-            <a href="#about">About</a>
-        </li>
-        <li data-target="#skills" bs-scrollspy>
-            <a href="#skills">Skills</a>
-            <ul class="nav nav-stacked">
-                <li><a href="#programming">Programming</a></li>
-                <li><a href="#technical">Technical</a></li>
-                <li><a href="#professional">Professional</a></li>
-            </ul>
-        </li>
-        <li data-target="#experience" bs-scrollspy>
-            <a href="#experience">Experience</a>
-        </li>
-        <li data-target="#projects" bs-scrollspy>
-            <a href="#projects">Projects</a>
-        </li>
-        <li data-target="#contact" bs-scrollspy>
-            <a href="#contact">Contact</a>
-        </li>
+<nav class="bs-docs-sidebar" role="complementary" data-offset-top="-80" bs-affix>
+    <ul id="sidebar" class="nav nav-stacked">
+    	<li ng-repeat="element in sidenav.elements" data-target="{{element.target}}" bs-scrollspy>
+    		<a href="{{element.target}}">{{element.name}}</a>
+    		<ul ng-show="element.subelements.length > 0" class="nav nav-stacked">
+				<li ng-repeat="e in element.subelements" data-target="{{e.target}}" bs-scrollspy>
+					<a href="{{e.target}}">{{e.name}}</a>
+				</li>
+    		</ul>
+    	</li>
     </ul>
 </nav>
