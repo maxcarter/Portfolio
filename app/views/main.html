@@ -50,8 +50,22 @@
                         <div ng-include="'views/tpl-accordion.html'"></div>
                     </div>
                 </section>
-                <section class="custom-section" id="experience">
-                    <h1 class="page-header">Experience</h1>
+                <section class="custom-section" id="timeline">
+                    <h1 class="page-header">Timeline</h1>
+                    <!-- view -->
+                    <timeline>
+                        <timeline-event ng-repeat="event in events" side="right">
+                            <timeline-badge class="{{event.badgeClass}}">
+                                <i class="glyphicon {{event.badgeIconClass}}"></i>
+                            </timeline-badge>
+                            <timeline-panel class="{{event.badgeClass}}">
+                                <timeline-heading>
+                                    <h4>{{event.title}}</h4>
+                                </timeline-heading>
+                                <p>{{event.content}}</p>
+                            </timeline-panel>
+                        </timeline-event>
+                    </timeline>
                 </section>
                 <section class="custom-section" id="projects">
                     <h1 class="page-header">Projects</h1>

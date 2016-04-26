@@ -30,6 +30,8 @@ module.exports = function(config) {
       'app/bower_components/angular-strap/dist/angular-strap.tpl.js',
       'app/bower_components/Flowtype.js/flowtype.js',
       'app/bower_components/angular-flowtype/angular-flowtype.js',
+      'app/bower_components/angular-sanitize/angular-sanitize.js',
+      'app/bower_components/angular-timeline/dist/angular-timeline.js',
       'app/bower_components/angular-mocks/angular-mocks.js',
       // endbower
       'app/scripts/**/*.js',

@@ -23,8 +23,8 @@ angular.module('portfolioApp')
                 target: "#skills",
                 subelements: []
             }, {
-                name: "Experience",
-                target: "#exprience",
+                name: "Timeline",
+                target: "#timeline",
                 subelements: []
             }, {
                 name: "Projects",

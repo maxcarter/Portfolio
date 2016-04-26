@@ -14,7 +14,8 @@ angular
     'ngRoute',
     'ngAnimate', 
     'mgcrea.ngStrap',
-    'ngFlowtype'
+    'ngFlowtype',
+    'angular-timeline'
   ])
   .config(function ($routeProvider) {
     $routeProvider
