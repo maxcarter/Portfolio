@@ -322,3 +322,7 @@ fieldset[disabled] .navbar-custom .btn-link:focus {
 .panel-dark .panel-body {
     background: #e7e7e7;
 }
+
+.custom-skill i.fa{
+    color:#1C75CE;
+}
