@@ -8,9 +8,9 @@ p {
     color: #444444;
 }
 
-.block{
-    display:block;
-    margin:5px;
+.block {
+    display: block;
+    margin: 5px;
 }
 
 
@@ -328,6 +328,23 @@ fieldset[disabled] .navbar-custom .btn-link:focus {
     background: #e7e7e7;
 }
 
-.custom-skill i.fa{
-    color:#1C75CE;
+.custom-skill i.fa {
+    color: #1C75CE;
+}
+
+
+/* Timeline */
+
+@media only screen and (min-width: 1170px) {
+    .cd-date {
+        position: absolute;
+        width: 100%;
+        left: 122%;
+        top: 40px;
+    }
+    timeline-event:nth-child(even) .cd-date {
+        left: auto;
+        right: 122%;
+        text-align: right;
+    }
 }
