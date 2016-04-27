@@ -32,6 +32,7 @@ module.exports = function(config) {
       'app/bower_components/angular-flowtype/angular-flowtype.js',
       'app/bower_components/angular-sanitize/angular-sanitize.js',
       'app/bower_components/angular-timeline/dist/angular-timeline.js',
+      'app/bower_components/angular-read-more/dist/readmore.min.js',
       'app/bower_components/angular-mocks/angular-mocks.js',
       // endbower
       'app/scripts/**/*.js',

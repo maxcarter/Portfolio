@@ -1,0 +1,17 @@
+<timeline>
+    <timeline-event ng-repeat="event in timeline.events">
+        <timeline-badge class="{{event.badgeClass}}">
+            <i class="fa {{event.badgeIconClass}}"></i>
+        </timeline-badge>
+        <timeline-panel class="{{event.badgeClass}}">
+            <timeline-heading>
+                <div align="center" ng-show="event.image">
+                    <img class="img-responsive" src="images/{{event.image}}" />
+                </div>
+                <br>
+                <h4 class="page-header">{{event.title}} <small>{{event.small}}</small></h4> {{event.content.size}}
+            </timeline-heading>
+            <p hm-read-more hm-text="{{event.content}}" hm-limit="150" hm-more-text="Read More" hm-less-text="Read Less" hm-dots-class="dots" hm-link-class="block btn btn-default"></p>
+        </timeline-panel>
+    </timeline-event>
+</timeline>

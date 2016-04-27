@@ -13,9 +13,11 @@ angular
     'ngCookies',
     'ngRoute',
     'ngAnimate', 
+    'ngSanitize',
     'mgcrea.ngStrap',
     'ngFlowtype',
-    'angular-timeline'
+    'angular-timeline',
+    'hm.readmore'
   ])
   .config(function ($routeProvider) {
     $routeProvider

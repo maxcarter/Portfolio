@@ -8,6 +8,11 @@ p {
     color: #444444;
 }
 
+.block{
+    display:block;
+    margin:5px;
+}
+
 
 /* Navbar */
 
