@@ -56,6 +56,14 @@
                 </section>
                 <section class="custom-section" id="projects">
                     <h1 class="page-header">Projects</h1>
+                    <div class="custom-card-wrapper">
+                        <div class="custom-card" bs-modal="project.modal" ng-repeat="project in projects.projects">
+                            <img src="images/{{project.image}}" />
+                            <div class="card-title">
+                                <div class="card-name">{{project.name}}</div>
+                            </div>
+                        </div>
+                    </div>
                 </section>
                 <section class="custom-section" id="contact">
                     <h1 class="page-header">Contact</h1>

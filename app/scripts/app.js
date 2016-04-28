@@ -17,7 +17,8 @@ angular
     'mgcrea.ngStrap',
     'ngFlowtype',
     'angular-timeline',
-    'hm.readmore'
+    'hm.readmore',
+    'angular-scroll-animate'
   ])
   .config(function ($routeProvider) {
     $routeProvider

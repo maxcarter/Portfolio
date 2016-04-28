@@ -1,9 +1,9 @@
 <timeline>
     <timeline-event ng-repeat="event in timeline.events">
-        <timeline-badge class="{{event.badgeClass}}">
+        <timeline-badge class="{{event.badgeClass}} invisible" when-visible="animateElementIn" when-not-visible="animateElementOut">
             <i class="fa {{event.badgeIconClass}}"></i>
         </timeline-badge>
-        <timeline-panel class="{{event.badgeClass}}">
+        <timeline-panel class="invisible" when-visible="animateElementIn" when-not-visible="animateElementOut">
             <timeline-heading>
                 <div align="center" ng-show="event.image">
                     <img class="img-responsive" src="images/{{event.image}}" />
