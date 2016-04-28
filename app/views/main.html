@@ -59,7 +59,7 @@
                 <section class="custom-section" id="projects">
                     <h1 class="page-header">Projects</h1>
                     <div class="custom-card-wrapper">
-                        <div class="custom-card" bs-modal="project.modal" ng-repeat="project in projects.projects">
+                        <div class="custom-card" bs-modal="project.modal" data-template-url="views/tpl-projects-modal.html" data-animation="am-fade-and-scale" ng-repeat="project in projects.projects">
                             <img src="images/{{project.image}}" />
                             <div class="card-title">
                                 <div class="card-name">{{project.name}}</div>

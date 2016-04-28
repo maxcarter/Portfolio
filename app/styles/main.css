@@ -435,3 +435,12 @@ fieldset[disabled] .navbar-custom .btn-link:focus {
     transition: opacity 0.2s linear;
 }
 
+/* Project Modal */
+.project-icon{
+  width:30px;
+  height:30px;
+  border-radius:5px;
+}
+.project-modal .modal-title{
+  margin-left:40px;
+}

@@ -1,0 +1,21 @@
+<div class="project-modal modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header" ng-show="title">
+                <button type="button" class="close" ng-click="$hide()">×</button>
+                <img class="project-icon" align="left" ng-show="icon" src="images/{{icon}}" />
+                <h3 class="modal-title">{{title}}</h3></div>
+            <div class="modal-body" ng-show="content">
+                {{content}}
+                <div ng-show="image" align="center">
+                    <img src="images/{{image}}" class="img-responsive" />
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" ng-click="$hide()">Close</button>
+                <a type="button" ng-show="demo" target="_blank" href="{{demo}}" class="btn btn-info"><i class="fa fa-cogs"></i> Demo</a>
+                <a type="button" ng-show="github" target="_blank" href="{{github}}" class="btn btn-primary"><i class="fa fa-github"></i> GitHub</a>
+            </div>
+        </div>
+    </div>
+</div>
