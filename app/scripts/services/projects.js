@@ -11,6 +11,13 @@ angular.module('portfolioApp')
     .factory('Projects', function() {
         return {
             projects: [{
+                "name": "Twitter Vibes",
+                "image": "twittervibes.svg",
+                "modal": {
+                    "title": "test",
+                    "content": "test"
+                }
+            }, {
                 "name": "REST UP",
                 "image": "rest.svg",
                 "modal": {
