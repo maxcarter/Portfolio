@@ -1,10 +1,10 @@
 <nav class="bs-docs-sidebar" role="complementary" data-offset-top="-80" bs-affix>
     <ul id="sidebar" class="nav nav-stacked">
     	<li ng-repeat="element in sidenav.elements" data-target="{{element.target}}" bs-scrollspy>
-    		<a href="{{element.target}}">{{element.name}}</a>
+    		<a href="{{element.target}}" du-smooth-scroll offset="50">{{element.name}}</a>
     		<ul ng-show="element.subelements.length > 0" class="nav nav-stacked">
 				<li ng-repeat="e in element.subelements" data-target="{{e.target}}" bs-scrollspy>
-					<a href="{{e.target}}">{{e.name}}</a>
+					<a href="{{e.target}}" du-smooth-scroll offset="50">{{e.name}}</a>
 				</li>
     		</ul>
     	</li>

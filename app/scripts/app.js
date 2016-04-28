@@ -18,7 +18,8 @@ angular
     'ngFlowtype',
     'angular-timeline',
     'hm.readmore',
-    'angular-scroll-animate'
+    'angular-scroll-animate',
+    'duScroll'
   ])
   .config(function ($routeProvider) {
     $routeProvider
