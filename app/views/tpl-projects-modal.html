@@ -3,12 +3,12 @@
         <div class="modal-content">
             <div class="modal-header" ng-show="title">
                 <button type="button" class="close" ng-click="$hide()">×</button>
-                <img class="project-icon" align="left" ng-show="icon" src="images/{{icon}}" />
+                <img class="project-icon" align="left" ng-show="icon" ng-src="images/{{icon}}" />
                 <h3 class="modal-title">{{title}}</h3></div>
             <div class="modal-body" ng-show="content">
                 {{content}}
                 <div ng-show="image" align="center">
-                    <img src="images/{{image}}" class="img-responsive" />
+                    <img ng-src="images/{{image}}" class="img-responsive" />
                 </div>
             </div>
             <div class="modal-footer">
