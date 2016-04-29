@@ -16,87 +16,12 @@
                 <div ng-include="'views/sidenav.html'"></div>
             </div>
             <div class="col-md-9">
-                <section class="custom-section" id="welcome">
-                    <h1 class="page-header">Welcome</h1>
-                    <div flowtype min-font="15" max-font="20" font-ratio="35" line-ratio="1.5" minimum="1" maximum="9999">
-                        <p>Hello, I am a Computer Engineering student from the University of Waterloo currently looking for employment! This is my portfolio website, you are invited to explore my world and try out some of my personal projects. I encourage you reach out by contacting me using one of the links below. </p>
-                    </div>
-                    <button type="button" class="btn btn-lg btn-primary">
-                        <i class="fa fa-envelope"></i> Email
-                    </button>
-                    <button type="button" class="btn btn-lg btn-primary">
-                        <i class="fa fa-linkedin-square"></i> Linkedin
-                    </button>
-                    <button type="button" class="btn btn-lg btn-primary">
-                        <i class="fa fa-thumb-tack"></i> Resume
-                    </button>
-                </section>
-                <section class="custom-section" id="about">
-                    <h1 class="page-header">About</h1>
-                    <div flowtype min-font="15" max-font="20" font-ratio="35" line-ratio="1.5" minimum="1" maximum="9999">
-                        <p>I’m a technology enthusiast with special emphasis on software development. My interest lies in the the areas of web development, cloud computing (IaaS, PaaS, SaaS), software systems architecture, DevOps, and event-driven automation.</p>
-                        <p>I am currently pursuing a Bachelor of Applied Science (BASc) in Computer Engineering at the University of Waterloo. It is a five year co-op program consisting of alternating four month work and study terms. I am currently looking for a work placement in any software development or related field.</p>
-                    </div>
-                </section>
-                <section class="custom-section" id="skills">
-                    <h1 class="page-header">Skills</h1>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div ng-show="skills.active > -1" class="custom-skill">
-                                <h3><i class="fa {{skills.panels[skills.active].icon}}"></i> {{skills.panels[skills.active].title}}</h3>
-                                <p flowtype min-font="15" max-font="20" font-ratio="35" line-ratio="1.5" minimum="1" maximum="9999">&nbsp; &nbsp; &nbsp; &nbsp; {{skills.panels[skills.active].description}}</p>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div ng-include="'views/tpl-accordion.html'"></div>
-                        </div>
-                    </div>
-                </section>
-                <section class="custom-section" id="timeline">
-                    <h1 class="page-header">Timeline</h1>
-                    <div ng-include="'views/tpl-timeline.html'"></div>
-                </section>
-                <section class="custom-section" id="projects">
-                    <h1 class="page-header">Projects</h1>
-                    <div class="custom-card-wrapper">
-                        <div class="custom-card" bs-modal="project.modal" data-template-url="views/tpl-projects-modal.html" data-animation="am-fade-and-scale" ng-repeat="project in projects.projects">
-                            <img ng-src="images/{{project.image}}" />
-                            <div class="card-title">
-                                <div class="card-name">{{project.name}}</div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <section class="custom-section" id="contact">
-                    <h1 class="page-header">Contact</h1>
-
-                    <form class="form-horizontal">
-                        <div id="alert-container"></div>
-                        <div class="form-group">
-                            <label class="col-sm-2 control-label">Name</label>
-                            <div class="col-sm-10">
-                                <input ng-model="formdata.name" type="text" class="form-control" placeholder="Full Name">
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label class="col-sm-2 control-label">Email</label>
-                            <div class="col-sm-10">
-                                <input ng-model="formdata.email" type="text" class="form-control" placeholder="Email">
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label class="col-sm-2 control-label">Message</label>
-                            <div class="col-sm-10">
-                                <textarea ng-model="formdata.message" class="form-control" rows="6"></textarea>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <div class="col-sm-offset-2 col-sm-10">
-                                <button type="submit" class="btn btn-lg btn-primary" ng-click="submit(formdata)">Send</button>
-                            </div>
-                        </div>
-                    </form>
-                </section>
+                <section class="custom-section" id="welcome" ng-include="'views/section-welcome.html'"></section>
+                <section class="custom-section" id="about" ng-include="'views/section-about.html'"></section>
+                <section class="custom-section" id="skills" ng-include="'views/section-skills.html'"></section>
+                <section class="custom-section" id="timeline" ng-include="'views/section-timeline.html'"></section>
+                <section class="custom-section" id="projects" ng-include="'views/section-projects.html'"></section>
+                <section class="custom-section" id="contact" ng-include="'views/section-contact.html'"></section>
             </div>
         </div>
     </div>
