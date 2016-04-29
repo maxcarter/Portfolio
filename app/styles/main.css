@@ -12,6 +12,14 @@ p {
     display: block;
     margin: 5px;
 }
+/* custom button*/
+.btn-no-border {
+    border: none !important;
+}
+.hover-blue:hover{
+    background-color: #1c75ce !important;
+    color:#e7e7e7 !important;
+}
 
 
 /* Navbar */
