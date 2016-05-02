@@ -366,9 +366,12 @@ fieldset[disabled] .navbar-custom .btn-link:focus {
     display: table;
     margin-left: 0px;
 }
+.custom-card-container{
+    width:100%;
+    height:100%;
+}
 
 .custom-card {
-    background: #ffffff;
     width: 300px;
     height: 300px;
     float: left;

@@ -1,9 +1,11 @@
 <h1 class="page-header">Projects</h1>
 <div class="custom-card-wrapper">
-    <div class="custom-card" bs-modal="project.modal" data-template-url="views/tpl-projects-modal.html" data-animation="am-fade-and-scale" ng-repeat="project in projects.projects">
-        <img ng-src="images/{{project.image}}" />
-        <div class="card-title">
-            <div class="card-name">{{project.name}}</div>
+    <div class="custom-card" ng-repeat="project in projects.projects" bs-modal="project.modal" data-template-url="views/tpl-projects-modal.html" data-animation="am-fade-and-scale">
+        <div class="custom-card-container invisible" when-visible="animateElementIn" when-not-visible="animateElementOut">
+            <img ng-src="images/{{project.image}}" />
+            <div class="card-title">
+                <div class="card-name">{{project.name}}</div>
+            </div>
         </div>
     </div>
 </div>
