@@ -12,13 +12,17 @@ p {
     display: block;
     margin: 5px;
 }
+
+
 /* custom button*/
+
 .btn-no-border {
     border: none !important;
 }
-.hover-blue:hover{
+
+.hover-blue:hover {
     background-color: #1c75ce !important;
-    color:#e7e7e7 !important;
+    color: #e7e7e7 !important;
 }
 
 
@@ -366,9 +370,10 @@ fieldset[disabled] .navbar-custom .btn-link:focus {
     display: table;
     margin-left: 0px;
 }
-.custom-card-container{
-    width:100%;
-    height:100%;
+
+.custom-card-container {
+    width: 100%;
+    height: 100%;
 }
 
 .custom-card {
@@ -446,12 +451,66 @@ fieldset[disabled] .navbar-custom .btn-link:focus {
     transition: opacity 0.2s linear;
 }
 
+
 /* Project Modal */
-.project-icon{
-  width:30px;
-  height:30px;
-  border-radius:5px;
+
+.project-icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
 }
-.project-modal .modal-title{
-  margin-left:40px;
+
+.project-modal .modal-title {
+    margin-left: 40px;
+}
+
+
+/* Footer */
+
+.footer {
+    display: block;
+    width: 100%;
+    background: #1c75ce;
+    height: 200px;
+    text-align: center;
+    color: #e7e7e7;
+}
+
+.copyright {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.fork-on-github {
+    display: inline;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+
+.fork-on-github a {
+    color: #13487c;
+    display: block;
+    width: 100%;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -ms-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+.fork-on-github a:hover,
+.fork-on-github a:focus {
+    color: #e7e7e7;
+    text-decoration: none;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -ms-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+.fork-on-github i {
+    display: block;
+    font-size: 60px;
 }
