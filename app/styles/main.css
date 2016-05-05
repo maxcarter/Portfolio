@@ -220,6 +220,17 @@ fieldset[disabled] .navbar-custom .btn-link:focus {
     color: #13487c;
 }
 
+@media (max-width: 550px) {
+    .custom-header h1 {
+        text-align:center;
+        font-size: 40px;
+    }
+    .custom-header p {
+        text-align:center;
+        font-size: 15px;
+    }
+}
+
 .fixed {
     position: fixed;
 }
