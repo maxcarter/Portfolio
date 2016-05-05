@@ -8,8 +8,9 @@ An online visualization of my resume presented as a personal website portfolio.
 
 ## Features
 
-* Timeline of past employments
-* Shocase of past projects
+* Skills inventory
+* Timeline
+* Shocase of projects
 * Online link to Resume
 
 
@@ -27,13 +28,16 @@ grunt
 
 ## Tech Specs
 
-* Designed using HTML, CSS, jQuery, and PHP
+* Designed using HTML, CSS, AngularJS, and PHP
+* [Yeoman](http://yeoman.io/) scaffolding
+* [Mongo DB](https://www.mongodb.org/) NoSQL database
+* [AngularJS](https://angularjs.org/) frontend
+* [Bootstrap](http://getbootstrap.com/) styling
 * [Grunt](http://gruntjs.com/) task management 
 * [Bower](http://bower.io/) package management
 * Responsive design that supports various screen sizes
-* Parallax background scrolling
-* Responsive jQuery Timeline
-* Animated navigation menu
+* Controlled UI/UX rendering
+* Animated scrolling
 * PHP contact form
 
 ## License 
