@@ -13,6 +13,10 @@ p {
     margin: 5px;
 }
 
+.unscrollable {
+    overflow: hidden;
+}
+
 
 /* custom button*/
 
@@ -513,4 +517,50 @@ fieldset[disabled] .navbar-custom .btn-link:focus {
 .fork-on-github i {
     display: block;
     font-size: 60px;
+}
+
+
+/* Pace */
+
+.pace.pace-inactive {
+    display: none;
+}
+
+.pace {
+    -webkit-pointer-events: none;
+    pointer-events: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    z-index: 2000;
+    position: fixed;
+    height: 150px;
+    width: 200px;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    right: 0;
+    bottom: 0;
+    margin-left: -100px;
+    margin-top: -85px;
+}
+
+.pace .pace-progress {
+    z-index: 2000;
+    position: absolute;
+    -webkit-transform: translate3d(0, 0, 0) !important;
+    -ms-transform: translate3d(0, 0, 0) !important;
+    transform: translate3d(0, 0, 0) !important;
+}
+
+.pace .pace-progress:before {
+    content: attr(data-progress-text);
+    text-align: center;
+    color: #1c75ce;
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 100px;
+    font-weight: bold;
+    display: block;
+    z-index: 999;
+    position: absolute;
 }

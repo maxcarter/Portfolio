@@ -19,6 +19,7 @@ angular.module('portfolioApp')
         $scope.timeline = Timeline;
         $scope.projects = Projects;
         $scope.formdata = {};
+        $scope.done = false;
         $scope.animateElementIn = function($el) {
             $el.removeClass('invisible');
             $el.addClass('animated fadeIn');
@@ -38,4 +39,9 @@ angular.module('portfolioApp')
                 },
                 Banner.error);
         };
+        Pace.on("done", function() {
+            $("body").removeClass('unscrollable');
+            $("div.site").removeClass('invisible');
+            $("div.site").addClass('animated fadeIn');
+        }, []);
     });

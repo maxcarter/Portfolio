@@ -35,6 +35,7 @@ module.exports = function(config) {
       'app/bower_components/angular-read-more/dist/readmore.min.js',
       'app/bower_components/angular-scroll-animate/dist/angular-scroll-animate.js',
       'app/bower_components/angular-scroll/angular-scroll.js',
+      'app/bower_components/PACE/pace.js',
       'app/bower_components/angular-mocks/angular-mocks.js',
       // endbower
       'app/scripts/**/*.js',
