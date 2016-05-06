@@ -30,7 +30,6 @@ grunt
 
 * Designed using HTML, CSS, AngularJS, and PHP
 * [Yeoman](http://yeoman.io/) scaffolding
-* [Mongo DB](https://www.mongodb.org/) NoSQL database
 * [AngularJS](https://angularjs.org/) frontend
 * [Bootstrap](http://getbootstrap.com/) styling
 * [Grunt](http://gruntjs.com/) task management 
