@@ -376,12 +376,12 @@ fieldset[disabled] .navbar-custom .btn-link:focus {
     .cd-date {
         position: absolute;
         width: 100%;
-        left: 122%;
+        left: 126%;
         top: 40px;
     }
     timeline-event:nth-child(even) .cd-date {
         left: auto;
-        right: 122%;
+        right: 126%;
         text-align: right;
     }
 }
