@@ -21,7 +21,8 @@
     </div>
     <div class="form-group">
         <div class="col-sm-offset-2 col-sm-10">
-            <button type="submit" class="btn btn-lg btn-primary" ng-click="submit(formdata)">Send</button>
+            <button ng-disabled="loading" type="submit" class="btn btn-lg btn-primary" ng-click="submit(formdata)">Send</button>
+            <i ng-if="loading" class="fa fa-refresh fa-spin fa-3x contact-refresh"></i>
         </div>
     </div>
 </form>

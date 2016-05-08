@@ -30,14 +30,19 @@ angular.module('portfolioApp')
             $el.removeClass('animated fadeIn');
         };
         $scope.submit = function(data) {
+            $scope.loading = true;
             Request.post('server/form.php', $.param(data), {}, {
                 'Content-Type': 'application/x-www-form-urlencoded'
             }).then(
                 function success(response) {
+                    $scope.loading = false;
                     $scope.formdata = {};
-                    Banner.success(response);
+                    Banner.alert(response, 'success');
                 },
-                Banner.error);
+                function error(response) {
+                    $scope.loading = false;
+                    Banner.alert(response, 'danger');
+                });
         };
         Pace.on("done", function() {
             $("body").removeClass('unscrollable');

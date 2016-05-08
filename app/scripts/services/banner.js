@@ -11,20 +11,11 @@ angular.module('portfolioApp')
     .factory('Banner', function($alert) {
 
         return {
-            error: function(response) {
+            alert: function(response, type) {
                 $alert({
                     title: response.status + " " + response.statusText,
                     content: response.data.message,
-                    type: 'danger',
-                    show: true,
-                    container: '#alert-container'
-                });
-            },
-            success: function(response) {
-                $alert({
-                    title: response.status + " " + response.statusText,
-                    content: response.data.message,
-                    type: 'success',
+                    type: type,
                     show: true,
                     container: '#alert-container'
                 });

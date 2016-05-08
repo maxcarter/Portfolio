@@ -222,11 +222,11 @@ fieldset[disabled] .navbar-custom .btn-link:focus {
 
 @media (max-width: 550px) {
     .custom-header h1 {
-        text-align:center;
+        text-align: center;
         font-size: 40px;
     }
     .custom-header p {
-        text-align:center;
+        text-align: center;
         font-size: 15px;
     }
 }
@@ -357,6 +357,16 @@ fieldset[disabled] .navbar-custom .btn-link:focus {
 
 .custom-skill i.fa {
     color: #1C75CE;
+}
+
+.contact-refresh {
+    vertical-align: middle;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.contact-refresh.ng-animate {
+    -webkit-animation: none 0s;
 }
 
 
