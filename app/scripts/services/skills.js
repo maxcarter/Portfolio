@@ -18,7 +18,7 @@ angular.module('portfolioApp')
                 "description": "With several years of experience, I have acquired a keen understanding of web technologies. I have designed, developed, and maintained various websites and web apps throughout my life. My focus lies in designing responsive and easy to use interfaces that are supported by robust backend solutions. I have worked with several development stacks and have completed various university co-op work placements that focused on web developing. With experience developing everything from static webpages to single page web applications to RESTful APIs, web development is my passion and always provides new learning experiences at home and in the work place."
             }, {
                 "title": "Front-End Development",
-                "body": "HTML, CSS, JavaScript, jQuery, AngularJS, Twitter Bootstrap, Yeoman, GruntJS, Bower",
+                "body": "HTML, CSS, SASS, JavaScript, jQuery, AngularJS, ReactJS, Bootstrap, Semantics UI, Yeoman, GruntJS, Bower",
                 "icon": "fa-code",
                 "description": "I strive to develop professional, response front-ends with special emphasis on UI/UX. My websites and web apps scale to work on various screen sizes on any device that has an internet browser. I have designed and built various websites and have had various university work terms developing data-driven web applications. My specialty lies in using JavaScript frameworks to effectively complement responsive HTML and CSS web user interfaces. Browse some of my projects below to view some of the web applications I tinkered together on my spare time."
             }, {
@@ -38,7 +38,7 @@ angular.module('portfolioApp')
                 "description": "Object-Oriented Programming is the heart and soul of all programs. Most of my experience working with high-level programming languages have been during academic courses. I have taken several engineering courses at the University of Waterloo that focus on such development: Fundamentals of Programming, Embedded Systems, Algorithms and Data Structures, Operating Systems, Embedded Microprocessor Systems, and Compilers. During the lab components of these courses I have built an Android application, kernel, compiler, implemented several algorithms, and programmed an FPGA Altera circuit board to become a physical audio player."
             }, {
                 "title": "Quality Assurance",
-                "body": "Karma, Jasmine, Selenium, jUnit",
+                "body": "Karma, Jasmine, Selenium, jUnit, qUnit",
                 "icon": "fa-bug",
                 "description":"Quality Assurance is a vital part to any application. I have had first hand experience working with a QA department to help improve existing testing structures and efficiency using automation. I have experience building an automated QA pipeline that streamlines end to end testing using Karma, Jasmine, jUnit, and Selenium. Quality Assurance is definitely a skill I am constantly improving as I continue to work on projects that are starting to focus more on Test Drive Development."
             }, {
@@ -48,7 +48,7 @@ angular.module('portfolioApp')
                 "description": "My low-level programming experience so far is limited to a single lab component of a Digital Computers course at the University of Waterloo. During this lab component we used Assembly ARM to gain experience with register and memory management, I/O interfacing, and interrupts. I hope to gain more experience in this area by tinkering with Arduinos and Raspberry Pis."
             }, {
                 "title": "Mobile Development",
-                "body": "Android",
+                "body": "Android, iOS - Objective C",
                 "icon": "fa-tablet",
                 "description": "My mobile development experience so far is limited to a single lab component of an Embedded Systems course at the University of Waterloo. During this lab component we built an Android Pedometer. The app counts the users steps as they navigate through a given SVG map and uses a path finder algorithm to determine a path from the start point to the destination as the user walks."
             }, {
