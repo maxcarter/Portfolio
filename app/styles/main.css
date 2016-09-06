@@ -17,6 +17,17 @@ p {
     overflow: hidden;
 }
 
+.alert-danger {
+    color: #ffffff;
+    background-color: #D9534F;
+    border-color: #D9534F;
+}
+
+.alert-success {
+    color: #ffffff;
+    background-color: #5CB85C;
+    border-color: #5CB85C;
+}
 
 /* custom button*/
 

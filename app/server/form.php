@@ -62,13 +62,13 @@
                 $res -> data = $email_content;
             } catch (Exception $e) {
                 $res -> status_code = 500;
-                $res -> message = "There was an error processing your request: ". $e->getMessage();
+                $res -> message = "Sorry, there was a problem while processing your request.";
                 $res -> data = [];
             }
         }
     } else {
         $res -> status_code = 400;
-        $res -> message = "POST params not set";
+        $res -> message = "Please fill out the form before clicking send.";
         $res -> data = [];
     }
     http_response_code($res -> status_code);
