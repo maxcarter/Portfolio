@@ -6,7 +6,9 @@
         <timeline-panel class="invisible" when-visible="animateElementIn" when-not-visible="animateElementOut">
             <timeline-heading>
                 <div align="center" ng-show="event.image">
-                    <img class="img-responsive" ng-src="images/{{event.image}}" />
+                    <a href="{{event.site}}" target="_blank">
+                      <img class="img-responsive" ng-src="images/{{event.image}}" />
+                    </a>
                 </div>
                 <br>
                 <h4 class="page-header">{{event.title}} <small>{{event.small}}</small></h4> {{event.content.size}}
