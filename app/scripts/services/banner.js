@@ -9,11 +9,9 @@
  */
 angular.module('portfolioApp')
     .factory('Banner', function($alert) {
-
         return {
             alert: function(response, type) {
                 $alert({
-                    title: response.status + " " + response.statusText,
                     content: response.data.message,
                     type: type,
                     show: true,
