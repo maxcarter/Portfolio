@@ -44,11 +44,11 @@ angular.module('portfolioApp')
                     "demo": ""
                 }
             }, {
-                "name": "Sault Ste. Marie Lawyers",
+                "name": "Law Office of Murdoch Carter",
                 "image": "saultstemarielawyers.svg",
                 "modal": {
-                    "title": "SaultSteMarieLawyers.com",
-                    "content": "SaultSteMarieLawyers.com is a responsive website for the Law Office of Murdoch J. Carter in Sault Ste. Marie Ontario. Built in HTML, CSS, jQuery and PHP, The site features an adaptive design that adjusts to various screen sizes to work on any device.",
+                    "title": "MurdochCarter.com",
+                    "content": "MurdochCarter.com is a responsive website for the Law Office of Murdoch J. Carter in Sault Ste. Marie Ontario. Built in HTML, CSS, jQuery and PHP, The site features an adaptive design that adjusts to various screen sizes to work on any device.",
                     "icon": "saultstemarielawyers.svg",
                     "image": "saultstemarielawyers_screenshot.jpg",
                     "github": "",
@@ -62,8 +62,7 @@ angular.module('portfolioApp')
                     "content": "Code Bat is a tutorial website that provides tips and tricks for various programming languages. The site was originally developed as a school project in high school but has become a place where I can experiment with new technologies. The website is still unfinished and is constantly subject to theme change as I experiment with different web designs. CodeBat was made using HTML, CSS, JavaScript, jQuery and PHP.",
                     "icon": "codebat.svg",
                     "image": "codebat_screenshot.jpg",
-                    "github": "",
-                    "demo": "http://code-bat.com/pages/index.php"
+                    "github": ""
                 }
             }, {
                 "name": "Lomas Carpentry",

@@ -22,7 +22,7 @@ angular.module('portfolioApp')
             },{
                 badgeClass: 'primary',
                 badgeIconClass: 'fa-code',
-                title: 'Systems Software Development Student',
+                title: 'Software Development Student',
                 small: 'Blackberry',
                 content: 'Developed a consolidated messaging single page web application for reducing cycles while normalizing communications for the BlackBerry Network Operations Centre (NOC). The tool was built using AngularJS while interfacing with a PHP REST API and structured to be scalable for use with any template messaging solution. <br /><br />Actively participated in the development of a PHP RESTful API solution to predefined endpoints. Helped define a scalable model-view-controller structure for ease of extensibility and security.<br><br> Contributed to the BlackBerry Service Assurance Solutions team by developing an extension to a landing page web application that visualizes service alert data. The app now allows users to associate alerts with actions that define how to resolve the alert. Additionally, the extension included the ability to search, browse, create, read, update, and delete, actions and alert links. The extension was developed using AngularJS with ElasticSearch database integration.',
                 image: 'blackberry.png',
