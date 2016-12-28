@@ -1,0 +1,9 @@
+<span>
+    <span name="text">
+        <span ng-bind-html="text.content" style="white-space:pre-wrap;"></span>
+    </span>
+    <span name="toggle">
+        <span ng-class="styles.dots" ng-show="!displayMore">{{text.dots}}</span>
+        <a ng-class="styles.link" ng-click="toggle()">{{text.link}}</a>
+    </span>
+</span>

@@ -16,7 +16,6 @@ angular
     'ngSanitize',
     'mgcrea.ngStrap',
     'angular-timeline',
-    'hm.readmore',
     'angular-scroll-animate',
     'duScroll'
   ])
