@@ -14,6 +14,15 @@ angular.module('portfolioApp')
             events: [{
                 badgeClass: 'primary',
                 badgeIconClass: 'fa-code',
+                title: 'Software Intern',
+                small: 'NVIDIA',
+                content: '',
+                image: 'nvidia.png',
+                date: 'Jan. 2017 - April 2017',
+                site: 'http://www.nvidia.com/'
+            },{
+                badgeClass: 'primary',
+                badgeIconClass: 'fa-code',
                 title: 'Software Developer',
                 small: 'SMART Technologies',
                 content: 'Designed and developed an interactive web based educational game for SMART Boards that placed first in the company wide intern project competition and will be included as part of the next SMART Lesson Activity Builder release. The game was an interactive quiz game based on teacher defined content that emphasized learning while encouraging class participation and student engagement.<br /><br/>Developed various features and stability improvements to the SMART Lesson Activity Builder game engine.<br /><br/>Redesigned the SMART Lesson Activity Builder iOS native application for a new sign-in workflow that decreases the length of time required for students to join an activity from their native devices.<br/><br/>Built a student progress tracker in ReactJS and Node.js during the SMART Exemplary Educators Summit Hackathon',
