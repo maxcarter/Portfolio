@@ -12,10 +12,9 @@ angular
   .module('portfolioApp', [
     'ngCookies',
     'ngRoute',
-    'ngAnimate', 
+    'ngAnimate',
     'ngSanitize',
     'mgcrea.ngStrap',
-    'ngFlowtype',
     'angular-timeline',
     'hm.readmore',
     'angular-scroll-animate',
