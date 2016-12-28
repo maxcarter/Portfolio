@@ -42,9 +42,14 @@ p {
 }
 
 .margin-small {
-  margin: 5px;
+    margin: 5px;
 }
 
+@media (max-width: 450px) {
+    .no-mobile {
+        display:none;
+    }
+}
 
 /* Navbar */
 
