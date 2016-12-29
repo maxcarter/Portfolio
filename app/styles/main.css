@@ -406,6 +406,9 @@ fieldset[disabled] .navbar-custom .btn-link:focus {
 
 
 /* Timeline */
+.cd-date {
+  text-align: center;
+}
 
 @media only screen and (min-width: 1170px) {
     .cd-date {
@@ -413,6 +416,7 @@ fieldset[disabled] .navbar-custom .btn-link:focus {
         width: 100%;
         left: 126%;
         top: 40px;
+        text-align: left;
     }
     timeline-event:nth-child(even) .cd-date {
         left: auto;
