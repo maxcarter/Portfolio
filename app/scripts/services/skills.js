@@ -13,17 +13,17 @@ angular.module('portfolioApp')
             active: 0,
             panels: [{
                 "title": "Web Development",
-                "body": "Responsive Websites, UI/UX, Data-Driven Web Apps, Dashboards, Consoles, Admins tools, RESTful APIs, LAMP, MEAN, Productivity Automation",
+                "body": "UI/UX, Websites, Web Apps, RESTful APIs, LAMP, MEAN",
                 "icon": "fa-code",
                 "description": "With several years of experience, I have acquired a strong understanding of web development. I have designed, developed, and maintained various websites, web apps, and web based games throughout my life. My focus lies in designing responsive and easy to use interfaces that are supported by robust backend solutions. I have worked with several development stacks and have completed various university co-op work term placements that focused primarily on web development. With experience developing everything from static webpages to data-driven single page web applications and RESTful APIs, web development is my passion and always provides new learning experiences at home and in the work place."
             }, {
                 "title": "Front-End Development",
-                "body": "HTML, CSS, SASS, JavaScript, jQuery, AngularJS, ReactJS, Bootstrap, Semantics UI, Yeoman, GruntJS, Bower",
+                "body": "HTML, CSS, SASS, JavaScript, jQuery, AngularJS, ReactJS",
                 "icon": "fa-code",
                 "description": "I strive to develop professional, response front-ends with special emphasis on UI/UX. My websites and web apps scale to work on various screen sizes on any device that has an internet browser. I have designed and built various websites and have had various university work terms developing data-driven web applications. My specialty lies in using JavaScript frameworks to effectively complement responsive HTML and CSS web user interfaces. Browse some of my projects below to view some of the web applications I tinkered together on my spare time."
             }, {
                 "title": "Back-End Development",
-                "body": "Node.js, PHP, JSP, Python, Wordpress, StackStorm, REST, JSON, XML",
+                "body": "Node.js, PHP, JSP, Python, StackStorm, REST, JSON, XML",
                 "icon": "fa-terminal",
                 "description": "I focus on developing robust and secure backend solutions to websites and applications. With years of experience working with server side technologies, I have developed a strong sense of best practises and design patterns corresponding to effective web backends. I have experience designing and developing secure RESTful API solutions for large scale web applications, and creating scalable automated platforms that can manage large quantities of data effectively and efficiently."
             }, {
@@ -68,7 +68,7 @@ angular.module('portfolioApp')
                 "description": "My knowledge of animation and Flash development is strongly based on my high school computer science courses. During these courses we worked with Adobe Flash Professional and Action Script to design and develop Flash animations and games. During this time I was also employed by an online media company SooToday.com as a Flash Developer. I worked in the advertising department using the Adobe Creative Suite 5.5 to design and develop animated internet advertisements for various local companies."
             }, {
                 "title": "Graphic Design",
-                "body": "Adobe Photoshop, Adobe Illustrator, Sketch, Vector Graphics, GIF",
+                "body": "Photoshop, Illustrator, Sketch, Vector Graphics, GIF",
                 "icon": "fa-paint-brush",
                 "description": "I have had years of experience working with image manipulation tools and vector graphics to design and develop websites and web applications as well as manipulate and enhance photos. During my final years of high school I worked for the online media company SooToday.com as a Flash Developer. During this employment I worked in the advertising department using the Adobe Creative Suite 5.5 to design and develop animated internet advertisements for various local companies. I worked extensively with Adobe Photoshop, Illustrator, and Flash Professional to design each advertisement from scratch to meet the customers needs."
             }]
