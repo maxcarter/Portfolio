@@ -36,9 +36,11 @@ p {
     border: none !important;
 }
 
-.hover-blue:hover {
-    background-color: #1c75ce !important;
-    color: #e7e7e7 !important;
+@media (min-width: 520px) {
+    .hover-blue:hover {
+        background-color: #1c75ce !important;
+        color: #e7e7e7 !important;
+    }
 }
 
 .margin-small {
@@ -397,8 +399,10 @@ fieldset[disabled] .navbar-custom .btn-link:focus {
     cursor: pointer;
 }
 
-.panel-dark .panel-heading:hover {
-    background: #1C75CE;
+@media (min-width: 520px) {
+  .panel-dark .panel-heading:hover {
+      background: #1C75CE;
+  }
 }
 
 .panel-dark .panel-body {
@@ -497,27 +501,45 @@ fieldset[disabled] .navbar-custom .btn-link:focus {
     transition: all 0.2s linear;
 }
 
+@media (min-width: 340px) {
+  .custom-card {
+      width: 130px;
+      height: 130px;
+  }
+}
+
 @media (min-width: 400px) {
   .custom-card {
       width: 300px;
       height: 300px;
-      -webkit-transition: all 0.2s linear;
-      -moz-transition: all 0.2s linear;
-      -ms-transition: all 0.2s linear;
-      -o-transition: all 0.2s linear;
-      transition: all 0.2s linear;
   }
 }
 
-@media (min-width: 750px) {
+@media (min-width: 520px) {
+  .custom-card {
+      width: 220px;
+      height: 220px;
+  }
+}
+
+@media (min-width: 650px) {
+    .custom-card {
+        width: 270px;
+        height: 270px;
+    }
+}
+
+@media (min-width: 700px) {
+    .custom-card {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media (min-width: 720px) {
     .custom-card {
         width: 200px;
         height: 200px;
-        -webkit-transition: all 0.2s linear;
-        -moz-transition: all 0.2s linear;
-        -ms-transition: all 0.2s linear;
-        -o-transition: all 0.2s linear;
-        transition: all 0.2s linear;
     }
 }
 
@@ -558,13 +580,15 @@ fieldset[disabled] .navbar-custom .btn-link:focus {
     padding-top: 70px;
 }
 
-.custom-card:hover img {
-    opacity: 0;
-    -webkit-transition: opacity 0.2s linear;
-    -moz-transition: opacity 0.2s linear;
-    -ms-transition: opacity 0.2s linear;
-    -o-transition: opacity 0.2s linear;
-    transition: opacity 0.2s linear;
+@media (min-width: 520px) {
+    .custom-card:hover img {
+        opacity: 0;
+        -webkit-transition: opacity 0.2s linear;
+        -moz-transition: opacity 0.2s linear;
+        -ms-transition: opacity 0.2s linear;
+        -o-transition: opacity 0.2s linear;
+        transition: opacity 0.2s linear;
+    }
 }
 
 
