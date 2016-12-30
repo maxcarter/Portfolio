@@ -51,6 +51,18 @@ p {
     }
 }
 
+@media (max-width: 1000px) {
+    .no-tablet {
+        display:none;
+    }
+}
+
+@media (min-width: 1001px) {
+    .no-desktop {
+        display:none;
+    }
+}
+
 /* Navbar */
 
 .dropdown-menu {
@@ -375,6 +387,7 @@ fieldset[disabled] .navbar-custom .btn-link:focus {
     border: 1px solid #333333;
     border-radius: 0px !important;
     margin: 0px !important;
+    background:#e7e7e7;
 }
 
 .panel-dark .panel-heading {
@@ -389,9 +402,12 @@ fieldset[disabled] .navbar-custom .btn-link:focus {
 }
 
 .panel-dark .panel-body {
+    border-top: 0px !important;
+    display: table-cell;
+    vertical-align: middle;
     background: #e7e7e7;
-    height: 50px;
-    max-height: 50px;
+    height: 70px;
+    max-height: 70px;
 }
 
 .custom-skill i.fa {
@@ -403,13 +419,13 @@ fieldset[disabled] .navbar-custom .btn-link:focus {
     max-height: 0px;
   }
   to {
-    max-height: 50px;
+    max-height: 70px;
   }
 }
 
 @keyframes collapse {
   from {
-    max-height: 50px;
+    max-height: 70px;
   }
   to {
     max-height: 0px;

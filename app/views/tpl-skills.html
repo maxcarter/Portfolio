@@ -1,0 +1,7 @@
+<div class="panel-group" ng-model="skills.active">
+    <div class="panel panel-dark" ng-repeat="panel in skills.panels">
+        <div class="panel-heading" bs-modal="panel" data-template-url="views/tpl-skills-modal.html" data-container="body" data-animation="am-fade-and-scale">
+            <h4 class="panel-title">{{panel.title}}</h4>
+        </div>
+    </div>
+</div>

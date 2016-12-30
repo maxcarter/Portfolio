@@ -1,5 +1,5 @@
 <h1 class="page-header">Skills</h1>
-<div class="row">
+<div class="row no-tablet">
     <div class="col-md-6">
         <div ng-show="skills.active > -1" class="custom-skill invisible" when-visible="animateElementIn" when-not-visible="animateElementOut">
             <h3><i class="fa {{skills.panels[skills.active].icon}}"></i> {{skills.panels[skills.active].title}}</h3>
@@ -8,5 +8,10 @@
     </div>
     <div class="col-md-6">
         <div ng-include="'views/tpl-accordion.html'" class="invisible" when-visible="animateElementIn" when-not-visible="animateElementOut"></div>
+    </div>
+</div>
+<div class="row no-desktop">
+    <div class="col-md-12">
+        <div ng-include="'views/tpl-skills.html'" class="invisible" when-visible="animateElementIn" when-not-visible="animateElementOut"></div>
     </div>
 </div>

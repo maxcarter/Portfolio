@@ -1,0 +1,16 @@
+<div class="skills-modal modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header" ng-show="title">
+                <button type="button" class="close" ng-click="$hide()">×</button>
+                <h3 class="modal-title custom-skill"><i class="fa {{icon}}"></i> {{title}}</h3></div>
+            <div class="modal-body" ng-show="description">
+                <div class="well pull-bottom"><center>{{body}}</center></div>
+                {{description}}
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" ng-click="$hide()">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
