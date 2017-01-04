@@ -1,0 +1,22 @@
+<div class="header">
+    <div class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <a class="navbar-brand" href="http://maxwellcarter.com"><strong>MC</strong> Portfolio</a>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="https://ca.linkedin.com/in/maxwellcarter" target="_blank"><i class="fa fa-linkedin-square"></i> <span class="linkName">Linkedin</span></a></li>
+                <li><a href="https://github.com/maxcarter" target="_blank"><i class="fa fa-github"></i> <span class="linkName">GitHub</span></a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="game-content">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12" align="center">
+              <h1 align="center">{{flashGame.name}}</h1>
+              <div flash-embed src="{{flashGame.src}}" width="{{flashGame.width}}" height="{{flashGame.height}}" background="{{flashGame.background}}"></div>
+              <p style="max-width: 500px;">{{flashGame.instructions}}</p>
+            </div>
+        </div>
+    </div>
+</div>

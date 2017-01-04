@@ -700,3 +700,7 @@ fieldset[disabled] .navbar-custom .btn-link:focus {
     z-index: 999;
     position: absolute;
 }
+
+.game-content {
+  margin-top: 50px;
+}

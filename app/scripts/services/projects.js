@@ -84,7 +84,7 @@ angular.module('portfolioApp')
                     "icon": "nuts.svg",
                     "image": "are-you-nuts_screenshot.jpg",
                     "github": "https://github.com/maxcarter/Are-You-Nuts",
-                    "demo": ""
+                    "demo": "http://maxwellcarter.com/#/game/are-you-nuts"
                 }
             }, {
                 "name": "Crokinole",
@@ -95,7 +95,7 @@ angular.module('portfolioApp')
                     "icon": "crokinole.svg",
                     "image": "",
                     "github": "https://github.com/maxcarter/Crokinole",
-                    "demo": ""
+                    "demo": "http://maxwellcarter.com/#/game/crokinole"
                 }
             }, {
                 "name": "Vaporizer",
@@ -106,7 +106,7 @@ angular.module('portfolioApp')
                     "icon": "vaporizer.svg",
                     "image": "vaporizer.jpg",
                     "github": "https://github.com/maxcarter/Vaporizer",
-                    "demo": ""
+                    "demo": "http://maxwellcarter.com/#/game/vaporizer"
                 }
             }]
         };

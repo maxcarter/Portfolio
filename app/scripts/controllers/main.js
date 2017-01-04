@@ -44,9 +44,4 @@ angular.module('portfolioApp')
                     Banner.alert(response, 'danger');
                 });
         };
-        Pace.on("done", function() {
-            $("body").removeClass('unscrollable');
-            $("div.site").removeClass('invisible');
-            $("div.site").addClass('animated fadeIn');
-        }, []);
     });

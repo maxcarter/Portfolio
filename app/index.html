@@ -43,7 +43,9 @@
     <!--[if lte IE 8]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
-    <div class="site invisible" ng-view=""></div>
+    <div id="content-wrapper" class="invisible">
+      <div class="site" ng-view=""></div>
+    </div>
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
     <script>
     ! function(A, n, g, u, l, a, r) {
@@ -85,7 +87,17 @@
     <script src="scripts/services/banner.js"></script>
     <script src="scripts/directives/flowtype.js"></script>
     <script src="scripts/directives/readmore.js"></script>
+    <script src="scripts/controllers/game.js"></script>
+    <script src="scripts/directives/flash-embed.js"></script>
+    <script src="scripts/services/games.js"></script>
     <!-- endbuild -->
+    <script type="text/javascript">
+      Pace.on("done", function() {
+          $("body").removeClass('unscrollable');
+          $("#content-wrapper").removeClass('invisible');
+          $("#content-wrapper").addClass('animated fadeIn');
+      }, []);
+    </script>
 </body>
 
 </html>

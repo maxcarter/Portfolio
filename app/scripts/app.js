@@ -26,6 +26,11 @@ angular
         controller: 'MainCtrl',
         controllerAs: 'main'
       })
+      .when('/game/:id', {
+        templateUrl: 'views/game.html',
+        controller: 'GameCtrl',
+        controllerAs: 'game'
+      })
       .otherwise({
         redirectTo: '/'
       });
