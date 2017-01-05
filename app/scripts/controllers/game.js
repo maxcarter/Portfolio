@@ -14,7 +14,7 @@ angular.module('portfolioApp')
       'AngularJS',
       'Karma'
     ];
-    $scope.flashGame = (Games[$routeParams.id]) ? Games[$routeParams.id] : {};
+    $scope.flashGame = (Games[$routeParams.id]) ? Games[$routeParams.id] : undefined;
     if (!Games[$routeParams.id]) {
       $window.location.href = '404.html';
     }
