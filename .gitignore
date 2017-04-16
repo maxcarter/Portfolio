@@ -6,3 +6,4 @@
 /app/bower_components
 *.zip
 *.DS_Store
+*.log

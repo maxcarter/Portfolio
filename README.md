@@ -25,7 +25,13 @@ npm install
 ## Build
 
 ```
-grunt
+npm run build
+```
+
+## Deploy
+
+```
+gcloud app deploy
 ```
 
 ## Tech Specs

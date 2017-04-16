@@ -1,0 +1,9 @@
+runtime: nodejs
+env: flex
+skip_files:
+  - ^app$
+  - ^node_modules$
+  - ^test$
+  - ^gruntfile.js$
+  - ^\.(.*/)?$
+  - ^(.*/)?\.log$

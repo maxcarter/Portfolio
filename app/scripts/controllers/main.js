@@ -31,8 +31,8 @@ angular.module('portfolioApp')
         };
         $scope.submit = function(data) {
             $scope.loading = true;
-            Request.post('server/form.php', $.param(data), {}, {
-                'Content-Type': 'application/x-www-form-urlencoded'
+            Request.post('/api/v1/email', data, {}, {
+                'Content-Type': 'application/json'
             }).then(
                 function success(response) {
                     $scope.loading = false;

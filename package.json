@@ -37,8 +37,16 @@
     "node": ">=0.10.0"
   },
   "scripts": {
+    "start": "node server/server.js",
     "test": "karma start test/karma.conf.js",
-    "postinstall": "bower install && grunt",
-    "build": "grunt build"
+    "build": "bower install && grunt build"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "morgan": "^1.8.1",
+    "nodemailer": "^4.0.1",
+    "path": "^0.12.7",
+    "winston": "^2.3.1"
   }
 }
