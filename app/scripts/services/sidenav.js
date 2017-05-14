@@ -30,10 +30,10 @@ angular.module('portfolioApp')
                 name: "Projects",
                 target: "#projects",
                 subelements: []
-            }, {
+            }]/*, {
                 name: "Contact",
                 target: "#contact",
                 subelements: []
-            }]
+            }]*/
         };
     });
