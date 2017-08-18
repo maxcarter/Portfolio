@@ -42,10 +42,10 @@ gcloud app deploy
 * [Bootstrap](http://getbootstrap.com/) styling
 * [Grunt](http://gruntjs.com/) task management
 * [Bower](http://bower.io/) package management
+* [ExpressJS](https://expressjs.com/) backend
 * Responsive design that supports various screen sizes
 * Controlled UI/UX rendering
 * Animated scrolling
-* PHP contact form
 
 ## License
 
