@@ -12,7 +12,7 @@ angular.module('portfolioApp')
 
         return {
             events: [{
-                badgeClass: 'primary',
+                badgeClass: 'badge-green',
                 badgeIconClass: 'fa-code',
                 title: 'Software Engineering Intern',
                 small: 'NVIDIA',
@@ -22,7 +22,7 @@ angular.module('portfolioApp')
                 location: 'Santa Clara CA, USA',
                 site: 'http://www.nvidia.com/'
             },{
-                badgeClass: 'primary',
+                badgeClass: 'badge-green',
                 badgeIconClass: 'fa-code',
                 title: 'Software Engineering Intern',
                 small: 'NVIDIA',
@@ -32,7 +32,7 @@ angular.module('portfolioApp')
                 location: 'Santa Clara CA, USA',
                 site: 'http://www.nvidia.com/'
             },{
-                badgeClass: 'primary',
+                badgeClass: 'badge-purple',
                 badgeIconClass: 'fa-code',
                 title: 'Software Developer',
                 small: 'SMART Technologies',
@@ -42,7 +42,7 @@ angular.module('portfolioApp')
                 location: 'Calgary AB, Canada',
                 site: 'https://home.smarttech.com/'
             },{
-                badgeClass: 'primary',
+                badgeClass: 'badge-black',
                 badgeIconClass: 'fa-code',
                 title: 'Software Development Student',
                 small: 'Blackberry',
@@ -52,7 +52,7 @@ angular.module('portfolioApp')
                 location: 'Waterloo ON, Canada',
                 site: 'http://ca.blackberry.com/'
             }, {
-                badgeClass: 'primary',
+                badgeClass: 'badge-black',
                 badgeIconClass: 'fa-code',
                 title: 'Systems Software Development Student',
                 small: 'Blackberry',
@@ -62,7 +62,7 @@ angular.module('portfolioApp')
                 location: 'Waterloo ON, Canada',
                 site: 'http://ca.blackberry.com/'
             }, {
-                badgeClass: 'primary',
+                badgeClass: 'badge-orange',
                 badgeIconClass: 'fa-code',
                 title: 'Front-End Developer',
                 small: '2020 Technologies',
@@ -72,7 +72,7 @@ angular.module('portfolioApp')
                 location: 'Montreal QC, Canada',
                 site: 'https://www.2020spaces.com/'
             }, {
-                badgeClass: 'success',
+                badgeClass: 'badge-eng-purple',
                 badgeIconClass: 'fa-graduation-cap',
                 title: 'Computer Engineering',
                 small: 'University of Waterloo',
@@ -82,7 +82,7 @@ angular.module('portfolioApp')
                 location: 'Waterloo ON, Canada',
                 site: 'https://uwaterloo.ca/'
             }, {
-                badgeClass: 'success',
+                badgeClass: 'badge-blue',
                 badgeIconClass: 'fa-graduation-cap',
                 title: 'High School Diploma',
                 small: 'Superior Heights C&VS',
@@ -92,7 +92,7 @@ angular.module('portfolioApp')
                 location: 'Sault Ste. Marie ON, Canada',
                 site: 'http://www.superiorheights.com/'
             }, {
-                badgeClass: 'primary',
+                badgeClass: 'badge-other-blue',
                 badgeIconClass: 'fa-paint-brush',
                 title: 'Flash Developer',
                 small: 'SooToday.com',
@@ -102,7 +102,7 @@ angular.module('portfolioApp')
                 location: 'Sault Ste. Marie ON, Canada',
                 site: 'https://www.sootoday.com/'
             }, {
-                badgeClass: 'primary',
+                badgeClass: 'badge-red',
                 badgeIconClass: 'fa-video-camera',
                 title: 'Camera Operator',
                 small: 'Soo Greyhounds',
@@ -112,7 +112,7 @@ angular.module('portfolioApp')
                 location: 'Sault Ste. Marie ON, Canada',
                 site: 'http://www.soogreyhounds.com/'
             }, {
-                badgeClass: 'primary',
+                badgeClass: 'badge-black',
                 badgeIconClass: 'fa-gavel',
                 title: 'Court Runner',
                 small: 'Willson, Carter',

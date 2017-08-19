@@ -468,6 +468,48 @@ fieldset[disabled] .navbar-custom .btn-link:focus {
   text-align: center;
 }
 
+.timeline li timeline-badge {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.timeline li timeline-badge.badge-green {
+    background-color: #77b900;
+}
+
+.timeline li timeline-badge.badge-purple {
+    background-color: #5a2c81;
+}
+
+.timeline li timeline-badge.badge-black {
+    background-color: #050505;
+}
+
+.timeline li timeline-badge.badge-orange {
+    background-color: #f69733;
+}
+
+.timeline li timeline-badge.badge-eng-purple {
+    background-color: #8401b3;
+}
+
+.timeline li timeline-badge.badge-blue {
+    background-color: #315cae;
+}
+
+.timeline li timeline-badge.badge-other-blue {
+    background-color: #0366a7;
+}
+
+.timeline li timeline-badge.badge-red {
+    background-color: #de494e;
+}
+
+.timeline li timeline-panel {
+     -webkit-box-shadow: none;
+     box-shadow: none;
+}
+
 @media only screen and (min-width: 1170px) {
     .cd-date {
         position: absolute;
