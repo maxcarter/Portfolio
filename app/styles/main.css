@@ -9,6 +9,20 @@ p {
     color: #444444;
 }
 
+.profile-image {
+    margin-right: 20px;
+    border-radius: 5px;
+    width: 325px;
+    float: left;
+    display:none;
+}
+
+@media (min-width: 650px) {
+  .profile-image {
+    display: inline;
+  }
+}
+
 .block {
     display: block;
     margin: 5px;
@@ -259,7 +273,7 @@ fieldset[disabled] .navbar-custom .btn-link:focus {
 
 .custom-header p {
     font-size: 20px;
-    color: #13487c;
+    color: #EFEFEF;
 }
 
 .rwd-line {
