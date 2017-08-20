@@ -802,11 +802,11 @@ fieldset[disabled] .navbar-custom .btn-link:focus {
   color: #e7e7e7;
   text-align: center;
 
-  -webkit-animation: pace-theme-center-circle-spin linear infinite 2s;
-  -moz-animation: pace-theme-center-circle-spin linear infinite 2s;
-  -ms-animation: pace-theme-center-circle-spin linear infinite 2s;
-  -o-animation: pace-theme-center-circle-spin linear infinite 2s;
-  animation: pace-theme-center-circle-spin linear infinite 2s;
+  -webkit-animation: pace-theme-center-circle-spin linear infinite 2.5s;
+  -moz-animation: pace-theme-center-circle-spin linear infinite 2.5s;
+  -ms-animation: pace-theme-center-circle-spin linear infinite 2.5s;
+  -o-animation: pace-theme-center-circle-spin linear infinite 2.5s;
+  animation: pace-theme-center-circle-spin linear infinite 2.5s;
 
   -webkit-transform-style: preserve-3d;
   -moz-transform-style: preserve-3d;
