@@ -14,7 +14,7 @@ angular.module('portfolioApp')
             more: true,
             showMoreEvents: function() {
                 this.more = false;
-                angular.forEach(this.events, function(e, key) {
+                angular.forEach(this.events, function(e) {
                   e.extra = false;
                 });
             },
