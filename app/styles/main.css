@@ -508,6 +508,13 @@ fieldset[disabled] .navbar-custom .btn-link:focus {
     cursor: pointer;
 }
 
+@media only screen and (max-width: 767px) {
+  .timeline li timeline-badge.timeline-toggle {
+      margin-left: -20px;
+      margin-top: -10px;
+  }
+}
+
 .timeline li timeline-badge {
     -webkit-box-shadow: none;
     box-shadow: none;
