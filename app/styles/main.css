@@ -500,6 +500,14 @@ fieldset[disabled] .navbar-custom .btn-link:focus {
   text-align: center;
 }
 
+.timeline li timeline-badge.timeline-toggle {
+    border-radius: 10px;
+    width: 100px;
+    margin-left: -50px;
+    background: #cccccc;
+    cursor: pointer;
+}
+
 .timeline li timeline-badge {
     -webkit-box-shadow: none;
     box-shadow: none;

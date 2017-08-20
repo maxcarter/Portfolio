@@ -11,7 +11,15 @@ angular.module('portfolioApp')
     .factory('Timeline', function() {
 
         return {
+            more: true,
+            showMoreEvents: function() {
+                this.more = false;
+                angular.forEach(this.events, function(e, key) {
+                  e.extra = false;
+                });
+            },
             events: [{
+                extra: false,
                 badgeClass: 'badge-green',
                 badgeIconClass: 'fa-code',
                 title: 'Software Engineering Intern',
@@ -22,6 +30,7 @@ angular.module('portfolioApp')
                 location: 'Santa Clara CA, USA',
                 site: 'http://www.nvidia.com/'
             },{
+                extra: false,
                 badgeClass: 'badge-green',
                 badgeIconClass: 'fa-code',
                 title: 'Software Engineering Intern',
@@ -32,6 +41,7 @@ angular.module('portfolioApp')
                 location: 'Santa Clara CA, USA',
                 site: 'http://www.nvidia.com/'
             },{
+                extra: false,
                 badgeClass: 'badge-purple',
                 badgeIconClass: 'fa-code',
                 title: 'Software Developer',
@@ -42,6 +52,7 @@ angular.module('portfolioApp')
                 location: 'Calgary AB, Canada',
                 site: 'https://home.smarttech.com/'
             },{
+                extra: false,
                 badgeClass: 'badge-black',
                 badgeIconClass: 'fa-code',
                 title: 'Software Development Student',
@@ -52,6 +63,7 @@ angular.module('portfolioApp')
                 location: 'Waterloo ON, Canada',
                 site: 'http://ca.blackberry.com/'
             }, {
+                extra: false,
                 badgeClass: 'badge-black',
                 badgeIconClass: 'fa-code',
                 title: 'Systems Software Development Student',
@@ -62,6 +74,7 @@ angular.module('portfolioApp')
                 location: 'Waterloo ON, Canada',
                 site: 'http://ca.blackberry.com/'
             }, {
+                extra: false,
                 badgeClass: 'badge-orange',
                 badgeIconClass: 'fa-code',
                 title: 'Front-End Developer',
@@ -72,6 +85,7 @@ angular.module('portfolioApp')
                 location: 'Montreal QC, Canada',
                 site: 'https://www.2020spaces.com/'
             }, {
+                extra: false,
                 badgeClass: 'badge-eng-purple',
                 badgeIconClass: 'fa-graduation-cap',
                 title: 'Computer Engineering',
@@ -82,6 +96,7 @@ angular.module('portfolioApp')
                 location: 'Waterloo ON, Canada',
                 site: 'https://uwaterloo.ca/'
             }, {
+                extra: true,
                 badgeClass: 'badge-blue',
                 badgeIconClass: 'fa-graduation-cap',
                 title: 'High School Diploma',
@@ -92,6 +107,7 @@ angular.module('portfolioApp')
                 location: 'Sault Ste. Marie ON, Canada',
                 site: 'http://www.superiorheights.com/'
             }, {
+                extra: true,
                 badgeClass: 'badge-other-blue',
                 badgeIconClass: 'fa-paint-brush',
                 title: 'Flash Developer',
@@ -102,6 +118,7 @@ angular.module('portfolioApp')
                 location: 'Sault Ste. Marie ON, Canada',
                 site: 'https://www.sootoday.com/'
             }, {
+                extra: true,
                 badgeClass: 'badge-red',
                 badgeIconClass: 'fa-video-camera',
                 title: 'Camera Operator',
@@ -112,6 +129,7 @@ angular.module('portfolioApp')
                 location: 'Sault Ste. Marie ON, Canada',
                 site: 'http://www.soogreyhounds.com/'
             }, {
+                extra: true,
                 badgeClass: 'badge-black',
                 badgeIconClass: 'fa-gavel',
                 title: 'Court Runner',
