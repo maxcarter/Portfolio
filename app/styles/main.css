@@ -751,52 +751,96 @@ fieldset[disabled] .navbar-custom .btn-link:focus {
     font-size: 60px;
 }
 
+.game-content {
+  margin-top: 50px;
+}
 
 /* Pace */
 
-.pace.pace-inactive {
-    display: none;
+.pace {
+  -webkit-pointer-events: none;
+  pointer-events: none;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+
+  -webkit-perspective: 50rem;
+  -moz-perspective: 50rem;
+  -ms-perspective: 50rem;
+  -o-perspective: 50rem;
+  perspective: 50rem;
+
+  z-index: 2000;
+  position: fixed;
+  height: 25rem;
+  width: 25rem;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 
-.pace {
-    -webkit-pointer-events: none;
-    pointer-events: none;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    user-select: none;
-    z-index: 2000;
-    position: fixed;
-    height: 150px;
-    width: 200px;
-    text-align: center;
-    top: 50%;
-    left: 50%;
-    right: 0;
-    bottom: 0;
-    margin-left: -100px;
-    margin-top: -85px;
+.pace.pace-inactive .pace-progress {
+  display: none;
 }
 
 .pace .pace-progress {
-    z-index: 2000;
-    position: absolute;
-    -webkit-transform: translate3d(0, 0, 0) !important;
-    -ms-transform: translate3d(0, 0, 0) !important;
-    transform: translate3d(0, 0, 0) !important;
+  position: fixed;
+  z-index: 2000;
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 25rem;
+  width: 25rem !important;
+  line-height: 25rem;
+  font-size: 8rem;
+  border-radius: 50%;
+  background: #1c75ce;
+  color: #e7e7e7;
+  text-align: center;
+
+  -webkit-animation: pace-theme-center-circle-spin linear infinite 2s;
+  -moz-animation: pace-theme-center-circle-spin linear infinite 2s;
+  -ms-animation: pace-theme-center-circle-spin linear infinite 2s;
+  -o-animation: pace-theme-center-circle-spin linear infinite 2s;
+  animation: pace-theme-center-circle-spin linear infinite 2s;
+
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  transform-style: preserve-3d;
 }
 
-.pace .pace-progress:before {
-    content: attr(data-progress-text);
-    text-align: center;
-    color: #1c75ce;
-    font-family: "Helvetica Neue", sans-serif;
-    font-size: 100px;
-    font-weight: bold;
-    display: block;
-    z-index: 999;
-    position: absolute;
+.pace .pace-progress:after {
+  content: attr(data-progress-text);
+  display: block;
 }
 
-.game-content {
-  margin-top: 50px;
+@-webkit-keyframes pace-theme-center-circle-spin {
+  from { -webkit-transform: rotateY(0deg) }
+  to { -webkit-transform: rotateY(360deg) }
+}
+
+@-moz-keyframes pace-theme-center-circle-spin {
+  from { -moz-transform: rotateY(0deg) }
+  to { -moz-transform: rotateY(360deg) }
+}
+
+@-ms-keyframes pace-theme-center-circle-spin {
+  from { -ms-transform: rotateY(0deg) }
+  to { -ms-transform: rotateY(360deg) }
+}
+
+@-o-keyframes pace-theme-center-circle-spin {
+  from { -o-transform: rotateY(0deg) }
+  to { -o-transform: rotateY(360deg) }
+}
+
+@keyframes pace-theme-center-circle-spin {
+  from { transform: rotateY(0deg) }
+  to { transform: rotateY(360deg) }
 }
