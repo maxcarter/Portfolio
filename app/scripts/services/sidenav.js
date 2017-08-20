@@ -23,6 +23,10 @@ angular.module('portfolioApp')
                 target: "#skills",
                 subelements: []
             }, {
+                name: "Education",
+                target: "#education",
+                subelements: []
+            }, {
                 name: "Timeline",
                 target: "#timeline",
                 subelements: []

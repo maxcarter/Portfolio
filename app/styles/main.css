@@ -450,6 +450,38 @@ fieldset[disabled] .navbar-custom .btn-link:focus {
   }
 }
 
+/* Education */
+
+.education-banner {
+  background: #333333;
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  display: block;
+}
+
+.education-banner img {
+  width: 100%;
+  max-width: 320px;
+}
+
+.education-info .btn {
+  margin-top: 10px;
+}
+
+@media (max-width: 1200px) {
+  .education-info h2 {
+    font-size: 25px;
+  }
+
+  .education-info h3 {
+    font-size: 20px;
+  }
+}
+
 /* Contact */
 
 .contact-refresh {
