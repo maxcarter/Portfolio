@@ -20,8 +20,8 @@ module.exports = function(config) {
     // list of files / patterns to load in the browser
     files: [
       // bower:js
-      'app/bower_components/jquery/dist/jquery.js',
       'app/bower_components/angular/angular.js',
+      'app/bower_components/jquery/dist/jquery.js',
       'app/bower_components/bootstrap/dist/js/bootstrap.js',
       'app/bower_components/angular-cookies/angular-cookies.js',
       'app/bower_components/angular-route/angular-route.js',

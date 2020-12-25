@@ -2,19 +2,25 @@ var express = require('express');
 var bodyParser = require('body-parser');
 var path = require('path');
 var morgan = require('morgan');
-var log = require('winston');
+var winston = require('winston');
 
 var config = require('./config');
 var app = express();
 var mode = 'dev';
 
-log.add(log.transports.File, {
-  filename: config.log
+var log = winston.createLogger({
+  level: 'info',
+  format: winston.format.json(),
+  defaultMeta: { service: 'portfolio' },
+  transports: [
+    new winston.transports.File({ filename: config.log })
+  ]
 });
 
-if (config.mode === 'PROD') {
-  log.remove(log.transports.Console);
-  mode = 'tiny';
+if (config.mode !== 'PROD') {
+  log.add(new winston.transports.Console({
+    format: winston.format.simple()
+  }));
 }
 
 app.use(bodyParser.urlencoded({extended: true }));
@@ -23,7 +29,7 @@ app.use(morgan(mode));
 
 require('./routes')(app);
 
-app.use(express.static('dist'));
+app.use(express.static('app'));
 
 var port = process.env.PORT || config.port;
 app.listen(port, function() {
