@@ -19,7 +19,7 @@ angular.module('portfolioApp')
                     "icon": "twittervibes.svg",
                     "image": "twittervibes_screenshot.jpg",
                     "github": "https://github.com/maxcarter/TwitterVibes",
-                    "demo": "http://twittervibes-mcarter.mybluemix.net"
+                    "demo": ""
                 }
             }, {
                 "name": "REST UP",
